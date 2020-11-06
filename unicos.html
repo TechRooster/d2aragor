@@ -6,20 +6,49 @@
     <link rel="stylesheet" href="css/estilos.css">
     <script src="js/jquery-3.5.1.js"></script>
     <script>
-        var items = [
-        "yelmo_unico_normal","yelmo_unico_excepcional","yelmo_unico_elite",
-        "armadura_unico_normal", "armadura_unico_excepcional","armadura_unico_elite",
 
-        ]
-
-        for(x=0;x>0;x++){
-            $(document).ready(function(){
-            $('#'+items[x]).click(function(){
-                $('#unico_grupo').load(items[x]+'.html');
+        $(document).ready(function(){
+            $('#yelmo_unico_normal').click(function(){
+                $('#unico_grupo').load('yelmo_unico_normal.html');
                 return false;
             });
         });
-        }
+
+        $(document).ready(function(){
+            $('#yelmo_unico_excepcional').click(function(){
+                $('#unico_grupo').load('yelmo_unico_excepcional.html');
+                return false;
+            });
+        });
+        
+        $(document).ready(function(){
+            $('#yelmo_unico_elite').click(function(){
+                $('#unico_grupo').load('yelmo_unico_elite.html');
+                return false;
+            });
+        });
+        
+        $(document).ready(function(){
+            $('#armadura_unico_normal').click(function(){
+                $('#unico_grupo').load('armadura_unico_normal.html');
+                return false;
+            });
+        });
+        
+        $(document).ready(function(){
+            $('#armadura_unico_excepcional').click(function(){
+                $('#unico_grupo').load('armadura_unico_excepcional.html');
+                return false;
+            });
+        });
+        
+        $(document).ready(function(){
+            $('#armadura_unico_elite').click(function(){
+                $('#unico_grupo').load('armadura_unico_elite.html');
+                return false;
+            });
+        });
+        
 
         /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
     </script>
@@ -32,14 +61,14 @@
             <tr>
                 <th class="grupo">Yelmos</th>
                 <td><a id="yelmo_unico_normal" href="#">Normal</a></td>
-                <td><a id="y_exc" href="#">Excepcional</a></td>
-                <td><a id="y_eli" href="#">Elite</a></td>
+                <td><a id="yelmo_unico_excepcional" href="#">Excepcional</a></td>
+                <td><a id="yelmo_unico_elite" href="#">Elite</a></td>
             </tr>
             <tr>
                 <th class="grupo">Armaduras</th>
-                <td><a class="unico" href="#">Normal</a></td>
-                <td><a class="unico" href="#">Excepcional</a></td>
-                <td><a class="unico" href="#">Elite</a></td>
+                <td><a id="armadura_unico_normal" href="#">Normal</a></td>
+                <td><a id="armadura_unico_excepcional" href="#">Excepcional</a></td>
+                <td><a class="armadura_unico_elite" href="#">Elite</a></td>
             </tr>
             <tr>
                 <th class="grupo">Escudos</th>
