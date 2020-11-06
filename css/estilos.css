@@ -1,0 +1,301 @@
+/* INICIO RESET */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+/* FINAL RESET */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lato&family=Montserrat&family=Quicksand&family=Roboto&display=swap');
+/*Estoy importando las siguientes fuentes: Cabin, Roboto, Montserrat, Quicksand, Lato */
+
+#todo{
+    width:1600px;
+    margin: 15px auto;
+    background-image: url(imgs/fondo1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color:white;
+}
+
+header{
+    text-align:center;
+    font-size:30px;
+    font-weight: bold;
+    background-image:url("imgs/portada2.jpg");
+    background-position:center top;
+    background-repeat:no-repeat;
+    background-color:black;
+    height:180px;
+}
+
+/* BARRA DE NAVEGACIÓN */
+#barra{
+    background-color:rgb(22, 22, 22);
+    margin-bottom: 20px;
+    height:2em;
+    padding-top:15px;
+    padding-left:50px;
+    border-top: 4px solid greenyellow;
+}
+
+#barra li{
+    display:inline;
+    background-color: rgb(22, 22, 22);
+    color:rgba(255, 255, 255,0.7);
+    margin-left:8px;
+    margin-right:8px;
+    
+    padding: 6px 20px;
+    font-size:11.5px;
+    font-family: 'Cabin',sans-serif;
+    font-weight: bold;
+    border-radius:10px;
+}
+
+#barra #icono{
+    margin-top:-12px;
+    margin-left: -50px;
+    float:left;
+}
+
+#barra a:link{
+    color:rgba(255, 255, 255,0.8);
+    text-decoration:none;
+}
+
+#barra a:visited{
+    color:rgba(255, 255, 255,0.8);
+}
+
+#barra a:hover{
+    color:rgba(255,255,255);
+    border-bottom: 5px solid yellow;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+/* //////////////
+BARRA DE BUSQUEDA 
+////////////// */
+.busqueda{
+    text-align:right;
+    margin-top:-50px;
+    margin-right:20px;
+    margin-bottom:50px;
+}
+
+#buscador{
+    background-color: rgb(46, 48, 46);
+    border-radius:8px;
+    color:white;
+
+}
+
+.busqueda #boton{
+    background-color:rgb(46, 45, 45);
+    color:white;
+    border-radius:5px;
+    font-size:0.7em;
+    font-family: 'Cabin',sans-serif;
+}
+
+/* ////////////////////
+BARRA LATERAL IZQUIERDA 
+//////////////////// */
+#blizquierda{
+    float:left;
+    background-color:rgb(22, 22, 22);
+    margin-top:-30px;
+    margin-bottom:50px;
+    border: 3px solid black;
+}
+
+#blizquierda ul{
+    list-style:none;
+    margin-right:20px;
+    margin-left:0px;
+    font-family:'Cabin',sans-serif;
+    font-size:13px;
+}
+
+#blizquierda li{
+    margin-top:6px;
+    margin-bottom:4px;
+    padding-right:10px;
+}
+
+#blizquierda li a:link{
+    text-decoration: none;
+    color:rgba(255, 255, 255,0.8);
+}
+
+#blizquierda li a:visited{
+    text-decoration: none;
+    color:rgba(255, 255, 255,0.8);
+}
+
+#blizquierda li a:hover{
+    border-bottom:4px solid yellow;
+    color:rgb(255,255,255);
+}
+
+#izquierda1, #izquierda2, #izquierda3, #izquierda4{
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+/* //////////////////
+BARRA LATERAL DERECHA 
+////////////////// */
+#blderecha{
+    float:right;
+    margin-top: -30px;
+    width:170px;
+    font-family:'Cabin',sans-serif;
+    font-size:15px;
+    background-color:rgb(22, 22, 22);
+    padding: 10px 4px 10px 4px;
+    border: 3px solid black;
+
+}
+
+/* ///////////////
+CONTENIDO PRINCIPAL 
+/////////////// */
+#principal{
+    background-color:rgb(22, 22, 22);
+    margin-left: 182px;
+    margin-right: 192px;
+    margin-top: -30px;
+    padding: 50px 20px 50px 20px;
+    font-size:16px;
+    font-family:'Roboto',sans-serif;
+    border: 3px solid black;
+}
+
+#principal #aviso h1{
+    font-family:'Cabin',sans-serif;
+    font-size:19px;
+    transform-style:uppercase;
+    font-weight:bold;
+    color:yellow;
+}
+
+#principal #aviso p{
+    font-family:'Cabin',sans-serif;
+    font-size:16px;
+    color: greenyellow;
+    text-align:justify;
+}
+
+/* /////////////
+OBJETOS UNICOS
+//////////// */
+
+
+#unico_grupo{
+    background-color:rgb(22, 22, 22);
+    color:white;
+    text-align:center;
+    font-family: 'Cabin', sans-serif;
+    margin: 20px 0;
+    padding: 20px 20px;
+}
+
+#unico_grupo a{
+    padding-left:40px;
+    padding-right: 40px;
+}
+
+#unico_tabla .unico{
+    font-size:13px;
+}
+
+#unico_grupo .grupo p{
+    font-size:20px;
+}
+
+#unico_tabla .unico:hover{
+    color:yellow;
+}
+
+#unico_grupo .grupo{
+    color:greenyellow;
+    font-size:14px;
+}
+
+#unico_grupo a:link, #unico_grupo a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#unico_tabla{
+    margin:auto;
+}
+
+/* ////////
+LISTA DE OBJETOS UNICOS
+/////// */
+.fondo_tabla{
+    background-color: black;
+    margin:auto;
+    color:#cccccc;
+    width:70%;
+    margin-top:40px;
+    margin-bottom:40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.tabla_objeto{
+    text-align:center;
+    padding-right:40px;
+    padding-left:40px;
+    width:180px;
+}
+
+.espacio{
+    height:30px;
+}
+
+.tabla_propiedades{
+    text-align:left;
+    font-size:12px;
+}
+
+.tabla_objeto .titulo{
+    font-weight: bold;
+    font-size:13px;
+    color:#999966;
+}
+
+.tabla_objeto .objeto{
+    font-size: 12px;
+    padding-top:1px;
+}
+
+
+/* /////////////
+PIE DE PAGINA
+///////////// */
+footer{
+    background-color:rgb(22, 22, 22);
+    clear:both;
+    font-family:'Cabin', sans-serif;
+    height:3em;
+    border: 3px solid black;
+    text-align:center;
+    padding-top:15px;
+    margin-bottom:20px;
+    
+}
