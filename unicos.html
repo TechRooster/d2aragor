@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#y_nor').click(function(){
+                $('#unico_grupo').load('yelmounico_normal.html');
+                return false;
+            });
+        });
+        /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
+    </script>
 </head>
 <body>
     <div id="unico_grupo">
@@ -12,9 +22,9 @@
             
             <tr>
                 <th class="grupo">Yelmos</th>
-                <td><a class="unico" href="#">Normal</a></td>
-                <td><a class="unico" href="#">Excepcional</a></td>
-                <td><a class="unico" href="#">Elite</a></td>
+                <td><a id="y_nor" href="#">Normal</a></td>
+                <td><a id="y_exc" href="#">Excepcional</a></td>
+                <td><a id="y_eli" href="#">Elite</a></td>
             </tr>
             <tr>
                 <th class="grupo">Armaduras</th>
