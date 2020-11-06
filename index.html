@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#unicos').click(function(){
+                $('#contenedor').load('unicos.html');
+                return false;
+            });
+        });
+        /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
+    </script>
+</head>
+<body id="todo">
+    <header>
+        
+    </header>
+
+    <nav>
+        <div id="barra">    
+            <ul>
+                <li><a class="pestanas" href="#">INDICE</a></li>
+                <li><a class="pestanas" href="#">BUSCAR</a></li>
+                <li><a class="pestanas" href="#">REGISTRARSE</a></li>
+                <li><a class="pestanas" href="#">CONECTARSE</a></li>
+            </ul>
+        </div>
+        <section class="busqueda">
+            <form action="" method="">
+                <input type="search" placeholder="Buscar..." id="buscador">
+                <button id="boton">Buscar</button>
+            </form>
+        </section>
+    </nav>
+
+    <div id="blizquierda">
+        <ul id="izquierda1">
+            <li><a class=item1 href="#">Inicio</a></li>
+            <li><a class=item1 href="#">Foro</a></li>
+            <li><a class=item1 href="#">FAQs</a></li>
+        </ul>
+        <ul id="izquierda2">
+            <li>PERSONAJES</li>
+            <li><a class=item1 href="#">Amazona</a></li>
+            <li><a class=item1 href="#">Asesina</a></li>
+            <li><a class=item1 href="#">Barbaro</a></li>
+            <li><a class=item1 href="#">Druida</a></li>
+            <li><a class=item1 href="#">Hechicera</a></li>
+            <li><a class=item1 href="#">Paladín</a></li>
+            <li><a class=item1 href="#">Nigromante</a></li>
+            </br>
+            <li><a class=item1>Guías</a></li>
+        </ul>
+        <ul id="izquierda3">
+            <li>OBJETOS</li>
+            <li><a class=item1 href="#">Normales</a></li>
+            <li><a class=item1 href="#">Mágicos</a></li>
+            <li><a class=item1 href="#">Raros</a></li>
+            <li><a class=item1 href="#">Artesanales</a></li>
+            <li><a class=item1 href="#">Sets</a></li>
+            <li><a id="unicos" href="#">Únicos</a></li>
+            <li><a class=item1 href="#">Runas</a></li>
+            <li><a class=item1 href="#">Pal. Rúnicas</a></li>
+            <li> </li>
+            <li><a class=item1 href="#">Gemas</a></li>
+            <li><a class=item1 href="#">Pociones</a></li>
+        </ul>
+        <ul id="izquierda4">
+            <li>CUBO HORÁDRICO</li>
+            <li><a class=item1 href="#">Información</a></li>
+            <li><a class=item1 href="#">Formulas</a></li>
+        </ul>
+    </div>
+
+    <div id="blderecha">
+        BARRA LATERAL DERECHA
+        <ul>
+            <li>Carro</li>
+            <li>Carro</li>
+            <li>Carro</li>
+            <li>Carro</li>
+            <li>Carro</li>
+        </ul>
+    </div>
+
+    <div id="principal">
+        <div id="aviso">
+            <h1>BUENAS TARDES! COMUNIDAD DIABLERA</h1></br>
+            <p>
+                Buenas tardes comunidad diablera, les presentamos la página web de esta entrega de Diablo II: Aragor Mod, aquí podrán encontrar novedades con respecto a la versión
+                expansión. Nuevas armas, nuevos enemigos, nuevos mapas. Esta versión desafía al usuario a encontrar nuevas combinaciones para mejorar al personaje y tener duelos
+                intensos con los otros jugadores en línea. Somos una comunidad en crecimiento. Unete y disfruta con nosotros!
+            </p></br></br>
+            <h1>IP del Servidor: 168.232.165.238</h1></br></br>            
+        </div>
+
+        <div id="contenedor"></div>
+
+        
+    </div>
+
+    <footer>
+        <p>El diseño y el contenido es propiedad de Andree Alvarado, para mayor información visitar esta pagina web.</p>
+    </footer>
+</body>
+</html>
