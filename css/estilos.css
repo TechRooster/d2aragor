@@ -202,10 +202,18 @@ CONTENIDO PRINCIPAL
 /* /////////////
 OBJETOS UNICOS
 //////////// */
-
+#cuerpo{
+    background-color:black;
+    color:white;
+    text-align:center;
+    font-family: 'Cabin', sans-serif;
+    margin: 20px 0;
+    padding: 20px 20px;
+    
+}
 
 #unico_grupo{
-    background-color:rgb(0,0,0);
+    background-color:black;
     color:white;
     text-align:center;
     font-family: 'Cabin', sans-serif;
@@ -214,8 +222,21 @@ OBJETOS UNICOS
 }
 
 #unico_grupo a{
-    padding-left:40px;
-    padding-right: 40px;
+    padding-left:15px;
+    padding-right: 20px;
+}
+
+#contenedor{
+    background-color:black;
+    border: 1px red solid;
+    color:white;
+    text-align:center;
+    font-family: 'Cabin', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 400px;
+    padding: 20px 20px;
+    float:left;
 }
 
 #unico_tabla .unico{
@@ -248,7 +269,7 @@ OBJETOS UNICOS
 LISTA DE OBJETOS UNICOS
 /////// */
 .fondo_tabla{
-    background-color: rgb(0,0,0);
+    background-color: black;
     margin:auto;
     color:#cccccc;
     width:70%;
