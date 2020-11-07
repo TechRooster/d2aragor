@@ -226,19 +226,6 @@ OBJETOS UNICOS
     padding-right: 20px;
 }
 
-#contenedor{
-    background-color:black;
-    border: 1px red solid;
-    color:white;
-    text-align:center;
-    font-family: 'Cabin', sans-serif;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 400px;
-    padding: 20px 20px;
-    float:left;
-}
-
 #unico_tabla .unico{
     font-size:13px;
 }
