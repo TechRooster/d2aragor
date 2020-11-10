@@ -48,6 +48,28 @@
                 return false;
             });
         });
+
+        $(document).ready(function(){
+            $('#guante_unico_normal').click(function(){
+                $('#unico_grupo').load('guante_unico_normal.html');
+                return false;
+            });
+        });
+        
+        $(document).ready(function(){
+            $('#guante_unico_excepcional').click(function(){
+                $('#unico_grupo').load('guante_unico_excepcional.html');
+                return false;
+            });
+        });
+        
+        $(document).ready(function(){
+            $('#guante_unico_elite').click(function(){
+                $('#unico_grupo').load('guante_unico_elite.html');
+                return false;
+            });
+        });
+        
         
 
         /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
@@ -78,9 +100,9 @@
             </tr>
             <tr>
                 <th class="grupo">Guantes</th>
-                <td><a class="unico" href="#">Normal</a></td>
-                <td><a class="unico" href="#">Excepcional</a></td>
-                <td><a class="unico" href="#">Elite</a></td>
+                <td><a id="guante_unico_normal" href="#">Normal</a></td>
+                <td><a id="guante_unico_excepcional" href="#">Excepcional</a></td>
+                <td><a id="guante_unico_elite" href="#">Elite</a></td>
             </tr>
             <tr>
                 <th class="grupo">Cinturones</th>
