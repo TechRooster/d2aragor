@@ -7,6 +7,8 @@
     <script src="js/jquery-3.5.1.js"></script>
     <script>
 
+        /*
+
         $(document).ready(function(){
             $('#yelmo_unico_normal').click(function(){
                 $('#unico_grupo').load('unicos/yelmo_unico_normal.html');
@@ -132,6 +134,19 @@
                 return false;
             });
         });
+
+        */
+
+        $(document).ready(function(){
+            var items = document.querySelectorAll("a");
+            for(var i=0; i<items.length; i++){
+            elementos[i].addEventListener("click",function(){
+            $('#unico_grupo').load('unicos/'+elementos[i]+'.html');
+            },false);}
+        });
+
+
+
         
 
         /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
