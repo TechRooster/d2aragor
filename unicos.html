@@ -140,15 +140,12 @@
         $(document).ready(function(){
             var items = document.querySelectorAll("a");
             for (var i=0; i<items.length; i++){
-                $('#'+items[i]).click(function(){
-                    $('#unico_grupo').load('unicos/'+items[i]+'.html'); 
+                $('#'+items[i].id).click(function(){
+                    $('#unico_grupo').load('unicos/'+items[i].id+'.html'); 
                 });
             }
         });
 
-
-
-        
 
         /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
     </script>
