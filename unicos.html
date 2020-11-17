@@ -140,8 +140,8 @@
         $(document).ready(function(){
             var items = document.querySelectorAll("a");
             for(var i=0; i<items.length; i++){
-            elementos[i].addEventListener("click",function(){
-            $('#unico_grupo').load('unicos/'+elementos[i]+'.html');
+            items[i].addEventListener("click",function(){
+            $('#unico_grupo').load('unicos/'+items[i]+'.html');
             },false);}
         });
 
