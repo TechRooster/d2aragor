@@ -139,14 +139,17 @@
 
         $(document).ready(function(){
             var elemento = document.getElementsByClassName('uqitem');
-
             for(var i=0; i<elemento.length; i++){
-                var id = elemento[i].getAttribute('id');
-                $('#'+id).click(function(){
-                    $('#unico_grupo').load('unicos/'+id+'.html');
-                });
-            }
+                elemento[i].addEventListener("click",abrir,false);
+            }    
         });
+
+        function abrir(e){
+            var id = e.getAttribute('id');
+            $('#'+id).click(function(){
+            $('#unico_grupo').load('unicos/'+id+'.html');
+            });
+        }
 
         /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
     </script>
