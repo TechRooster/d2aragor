@@ -146,9 +146,7 @@
 
         function abrir(e){
             var id = e.getAttribute('id');
-            $('#'+id).click(function(){
             $('#unico_grupo').load('unicos/'+id+'.html');
-            });
         }
 
         /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
