@@ -140,8 +140,8 @@
         $(document).ready(function(){
             var elemento = document.getElementsByClassName('uqitem');
             for(var i=0; i<elemento.length; i++){
-                elemento[i].addEventListener("click",function(){
-                    var id = elemento[i].getAttribute('id');
+                elemento[i].addEventListener("click",function(e){
+                    var id = e.getAttribute('id');
                     $('#unico_grupo').load('unicos/'+id+'.html')
                 },false);
             }    
