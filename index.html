@@ -12,6 +12,10 @@
                 $('#contenedor').load('unicos.html');
                 return false;
             });
+            $('#cubo').click(function(){
+                $('#contenedor').load('cubo.html');
+                return false;
+            });
         });
         /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
     </script>
@@ -72,8 +76,7 @@
         </ul>
         <ul id="izquierda4">
             <li>CUBO HORÁDRICO</li>
-            <li><a class=item1 href="#">Información</a></li>
-            <li><a class=item1 href="#">Formulas</a></li>
+            <li><a id="cubo" href="#">Fórmulas</a></li>
         </ul>
     </div>
 
