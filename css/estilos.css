@@ -173,28 +173,30 @@ BARRA LATERAL DERECHA
 /* ///////////////
 CONTENIDO PRINCIPAL 
 /////////////// */
-#contenedor{
+#bienvenida{
     background-color:rgb(0,0,0);
     margin-left: 182px;
     margin-right: 192px;
     margin-top: -30px;
     padding: 50px 20px 50px 20px;
     font-size:16px;
-    font-family:'Roboto',sans-serif;
+    font-family:'Cabin',sans-serif;
     border: 3px solid black;
 }
 
-#contenedor h1{
+#bienvenida h1{
     font-family:'Cabin',sans-serif;
     font-size:19px;
     transform-style:uppercase;
     font-weight:bold;
+    color:yellow;
 }
 
-#contenedor p{
+#bienvenida p{
     font-family:'Cabin',sans-serif;
     font-size:16px;
     text-align:justify;
+    color:greenyellow;
 }
 
 /* /////////////
@@ -291,6 +293,7 @@ LISTA DE OBJETOS UNICOS
     font-size: 12px;
     font-family: 'Cabin', sans-serif;
     padding-top:1px;
+    text-align:center;
 }
 
 /* ////////
