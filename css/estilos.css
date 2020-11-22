@@ -197,6 +197,10 @@ CONTENIDO PRINCIPAL
     text-align:justify;
 }
 
+#contenedor .tabla_objeto{
+    text-align:center;
+}
+
 #bienvenida h1{
     color:yellow;
 }
