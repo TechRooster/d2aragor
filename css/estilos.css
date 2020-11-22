@@ -17,7 +17,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
 /*Estoy importando las siguientes fuentes: Cabin, Roboto, Montserrat, Quicksand, Lato */
 
 #todo{
-    width:1600px;
+    width:100%;
     margin: 15px auto;
     background-image: url(imgs/fondo1.jpg);
     background-size:cover;
@@ -173,7 +173,7 @@ BARRA LATERAL DERECHA
 /* ///////////////
 CONTENIDO PRINCIPAL 
 /////////////// */
-#principal{
+#contenedor{
     background-color:rgb(0,0,0);
     margin-left: 182px;
     margin-right: 192px;
@@ -184,7 +184,7 @@ CONTENIDO PRINCIPAL
     border: 3px solid black;
 }
 
-#principal #aviso h1{
+#contenedor h1{
     font-family:'Cabin',sans-serif;
     font-size:19px;
     transform-style:uppercase;
@@ -192,7 +192,7 @@ CONTENIDO PRINCIPAL
     color:yellow;
 }
 
-#principal #aviso p{
+#contenedor p{
     font-family:'Cabin',sans-serif;
     font-size:16px;
     color: greenyellow;
@@ -262,7 +262,7 @@ LISTA DE OBJETOS UNICOS
     width:70%;
     margin-top:40px;
     margin-bottom:40px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 .tabla_objeto{
@@ -277,6 +277,7 @@ LISTA DE OBJETOS UNICOS
 }
 
 .tabla_propiedades{
+    font-family: 'Cabin', sans-serif;
     text-align:left;
     font-size:12px;
 }
@@ -284,11 +285,13 @@ LISTA DE OBJETOS UNICOS
 .tabla_objeto .titulo{
     font-weight: bold;
     font-size:13px;
+    font-family: 'Cabin', sans-serif;
     color:#999966;
 }
 
 .tabla_objeto .objeto{
     font-size: 12px;
+    font-family: 'Cabin', sans-serif;
     padding-top:1px;
 }
 
@@ -297,14 +300,14 @@ CUBO HORADRICO
 /////// */
 
 .formulas_c{
-    font-family:'Roboto',sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size:13.5px;
     color:yellow;
     font-weight:bold;
 }
 
 .cubo_content{
-    font-family:'Roboto',sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size:12px;
     color:greenyellow;
 
