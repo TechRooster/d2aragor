@@ -5,27 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
     <script src="js/jquery-3.5.1.js"></script>
-
-    <script>
-        $(document).ready(function(){
-            $('#unico_grupo a').click(function(){
-            $('#unico_grupo').load('unicos/'+$(this).attr('id')+'.html')
-            });    
-        });
-        /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
-    </script>
-    
 </head>
 <body>
     <div id="introduccion">
-        <p>
+        <p class="cubo_content">
         El Cubo Horádrico es un objeto que se puede encontrar en el Acto 2, abriendo el cofre dorado en Salas de la Muerte Nivel III.</br> 
         Existen diversas formulas que permiten combinar objetos para completar algunas misiones del juego y para craftear objetos artesanales.</br>
         El espacio que ocupa en el inventario es de 1x1 y en su interior dispone de un espacio de XXX. Puedes usarlo como almacenamiento.</br>
         No se necesita sacar los objetos del cubo al inventario para que Caín pueda identificarlos.</br>
         </br>
         Formulas de Transmutacion</br>
-        Al colocar en el cubo los objetos Requeridos y transmutarlos conseguimos otros objetos.</br></br>
+        Al colocar en el cubo los objetos Requeridos y transmutarlos conseguimos otros objetos.</br></br></br>
         </p>
     </div>
 
@@ -61,7 +51,7 @@
         Amuleto Magico + Joya Magica + Runa Ral + Amatista Perfecta = Amuleto Regenerador</br>
         Anillo Magico + Joya Magica + Runa Amn + Amatista Perfecta = Anillo Regenerador</br>
         Amuleto Magico + Joya Magica + Runa Thul + Esmeralda Perfecta = Amuleto Salvador</br>
-        Anillo Magico + Joya Magica + Runa Amn + Esmeralda Perfecta = Anillo Salvador</br></br>
+        Anillo Magico + Joya Magica + Runa Amn + Esmeralda Perfecta = Anillo Salvador</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_2_varios">HECHIZOS:</p></br>
@@ -69,7 +59,7 @@
         3 Hechizos Magicos = Nuevo Hechizo del Mismo Nivel</br>
         3 Hechizos Pequeños = Hechizo Pequeño (100% al Nivel del Personaje)</br>
         3 Hechizos Grandes = Hechizo Grande (100% al Nivel del Personaje)</br>
-        3 Gran Hechizo = Gran Hechizo (100% al Nivel del Personaje)</br></br>
+        3 Gran Hechizo = Gran Hechizo (100% al Nivel del Personaje)</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_3_varios">GEMAS:</p></br>
@@ -101,7 +91,7 @@
         3 Craneos Fragmentados = Craneo Estropeado</br>
         3 Craneos Estropeados = Craneos</br>
         3 Craneos = Craneo sin Defectos</br>
-        3 Craneos sin Defectos = Craneo Perfecto</br></br>
+        3 Craneos sin Defectos = Craneo Perfecto</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_4_varios">RUNAS:</p></br>
@@ -137,7 +127,7 @@
         2 Runa Sur = Runa Ber</br>
         2 Runa Ber = Runa Jah</br>
         2 Runa Jah = Runa Cham</br>
-        2 Runa Cham = Runa Zod</br></br>
+        2 Runa Cham = Runa Zod</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_5_varios">FLECHAS Y SAETAS:</p></br>
@@ -148,7 +138,7 @@
         Saetas + Runa Thul + Topacio Perfecto = Saetas Excepcionales Unicas (Nivel 35 Requerido)</br>
         Flechas + Runa Fal + Zafiro Perfecto = Flechas Elite Unicas (Nivel 65 Requerido)</br>
         Saetas + Runa Fal + Zafiro Perfecto = Saetas Elite Unicas (Nivel 65 Requerido)</br>
-        Cualquier Flecha o Saeta + Cualquier Pocion Curativa = Repone la cantidad a 244</br></br>
+        Cualquier Flecha o Saeta + Cualquier Pocion Curativa = Repone la cantidad a 244</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_6_varios">ARMADURAS, ESCUDOS Y ARMAS ENGARZADAS:</p></br>
@@ -164,7 +154,7 @@
         Arma/Tipos de Armadura/Escudos de Set & Unicos + Runa Lem = Añade 1 Agujero Al Item**</br>
         Arma/Tipos de Armadura/Escudos Raros & Artesanales + Runa Hel = Añade 2 Agujeros Al Item**</br>
         Arma/Tipos de Armadura/Escudos Mágicos + Runa Thul = Añade 3 Agujeros Al Item**</br>
-        ** Funciona en Guantes , cintos , Botas pero el item NO se engarzara Si este no esta habilitado para engarzarse</br></br>
+        ** Funciona en Guantes , cintos , Botas pero el item NO se engarzara Si este no esta habilitado para engarzarse</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_7_varios">ARMAS Y GEMAS FRAGMENTADAS</p></br>
@@ -178,7 +168,7 @@
         Cualquier Arma + Diamante Fragmentado = Añade +1 Durabilidad (+1 Nivel)</br>
         Runa Eld + 1 Gema Fragmentada + Arma Baja Calidad = Arma Calidad Normal</br>
         Runa Ort + Arma + Gema Fragmentada = Repara y Recarga</br>
-        Runa El + 1 Gema Fragmentada + Armadura Baja Calidad = Armadura Calidad Normal</br></br>
+        Runa El + 1 Gema Fragmentada + Armadura Baja Calidad = Armadura Calidad Normal</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_8_varios">ARMAS Y GEMAS ESTROPEADAS</p></br>
@@ -190,7 +180,7 @@
         Cualquier Arma + Craneo Estropeado = Añade +1-4 Daño Normal (+3 Niveles)</br>
         Cualquier Arma + Amatista Estropeada = Añade 30 Puntuación de Ataque (+3 Niveles)</br>
         Cualquier Arma + Diamante Estropeado = Añade +2 Durabilidad (+1 Nivel)</br>
-        Runa Ral + Armadura + Gema Estropeada = Repara + Recarga</br></br>
+        Runa Ral + Armadura + Gema Estropeada = Repara + Recarga</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_9_varios">ARMAS Y GEMAS NORMALES</p></br>
@@ -201,7 +191,7 @@
         Cualquier Arma + Esmeralda Normal = Añade 18 Daño de veneno (6s) (+5-6 Niveles)</br>
         Cualquier Arma + Craneo Normal = Añade +2-7 Daño Normal (+5-6 Niveles)</br>
         Cualquier Arma + Amatista Normal = Añade +50 Puntuacion de Ataque (+5-6 Niveles)</br>
-        Cualquier Arma + Diamante Normal = Añade +3 Durabilidad (+1 Nivel)</br></br>
+        Cualquier Arma + Diamante Normal = Añade +3 Durabilidad (+1 Nivel)</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_10_varios">ARMAS Y GEMAS SIN DEFECTOS</p></br>
@@ -212,7 +202,7 @@
         Cualquier Arma + Esmeralda Sin Defectos = Añade 35 Daño de Veneno(6s) (+8 Niveles)</br>
         Cualquier Arma + Craneo Sin Defectos = Añade 3-11 Daño Normal (+8 Niveles)</br>
         Cualquier Arma + Amatista Sin Defectos = Añade 75 Puntuacion de Ataque (+8 Niveles)</br>
-        Cualquier Arma + Diamante Sin Defectos = Añade 4 De Durabilidad (+1 Nivel)</br></br>
+        Cualquier Arma + Diamante Sin Defectos = Añade 4 De Durabilidad (+1 Nivel)</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_11_varios">ARMAS Y GEMAS PERFECTAS</p></br>
@@ -232,7 +222,7 @@
         Runa Ral + Runa Sol + Esmeralda perfecta + Arma unica basica = Arma Unica Excepcional</br>
         Runa Fal + Runa Um + Zafiro Perfecto + Arma rara exceptional = Arma Rara Elite</br>
         Runa Ort + Runa Amn + Zafiro Perfecto + Arma rara basica = Arma Rara Exceptional</br>
-        Runa Lum + Runa Pul + Esmeralda perfecta + Arma unica exceptional = Arma Unica Elite</br></br>
+        Runa Lum + Runa Pul + Esmeralda perfecta + Arma unica exceptional = Arma Unica Elite</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_12_varios">ARMADURAS Y GEMAS PERFECTAS</p></br>
@@ -252,7 +242,7 @@
         Runa Ko + Runa Lem + Diamante Perfecto + Armadura Unica Excepcional = Armadura Unica Elite</br>
         Runa Ral + Runa Thul + Amatista perfecta + Armadura Rara Normal = Armadura Rara Exceptional</br>
         Coraza Ligera Magica + Joya Magica + Runa Tal + Amatista perfecta = Armadura Regeneradora</br>
-        Runa Tal + Runa Thul + 1 Topacio Perfecto + Armadura Normal = Armadura Engarzada</br></br>
+        Runa Tal + Runa Thul + 1 Topacio Perfecto + Armadura Normal = Armadura Engarzada</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_13_varios">GUANTES/CINTURONES/BOTAS/CASCOS Y GEMAS PERFECTAS</p></br>
@@ -279,7 +269,7 @@
         Botas de placas Magicas + Joya Magica + Runa Ort + Esmeralda perfecta = Botas Salvadoras</br>
         Guanteletes Magicos + Joya Magica + Runa Ral + Esmeralda perfecta = Guantes Salvadores</br>
         Fajín Magico + Joya Magica + Runa Tal + Esmeralda perfecta = Cinturon Salvador</br>
-        Ral + Thul + 1 Zafiro Perfecto + Casco Normal = Casco Engarzado</br></br>
+        Ral + Thul + 1 Zafiro Perfecto + Casco Normal = Casco Engarzado</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_14_varios">ESCUDOS Y GEMAS PERFECTAS</p></br>
@@ -294,7 +284,7 @@
         Escudo Gotico Magico + Joya Magica + Runa Eth + Zafiro Perfecto = Escudo Poderoso</br>
         Escudo con Puntas Magico + Joya Magica + Runa Ith + Rubi Perfecto = Escudo Sangriento</br>
         Escudo Pequeño Magico + Joya Magica + Runa Eth + Amatista perfecta = Escudo Regenerador</br>
-        Runa Tal + Runa Amn + 1 Rubi Perfecto + Escudo Normal = Escudo Engarzado</br></br>
+        Runa Tal + Runa Amn + 1 Rubi Perfecto + Escudo Normal = Escudo Engarzado</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_15_varios">AMULETOS Y GEMAS PERFECTAS</p></br>
@@ -305,7 +295,7 @@
         Cualquier Amuleto + 6 Esmeraldas Perfectas = +1 Niveles Druida (+30 Niveles)</br>
         Cualquier Amuleto + 6 Craneos Perfectos = +1 Niveles Nigromante (+30 Niveles)</br>
         Cualquier Amuleto + 6 Amatistas Perfectas = +1 Niveles Amazona (+30 Niveles)</br>
-        Cualquier Amuleto + 6 Diamantes Perfectos = +1 Niveles Paladin (+30 Niveles)</br></br>
+        Cualquier Amuleto + 6 Diamantes Perfectos = +1 Niveles Paladin (+30 Niveles)</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_16_varios">ANILLOS Y GEMAS PERFECTAS</p></br>
@@ -316,24 +306,24 @@
         Cualquier Anillo + Esmeralda Perfecta = +5 Destreza (+8 Niveles)</br>
         Cualquier Anillo + Craneo Perfecto = El Atacante Recibe el Daño de 4 (+2 Niveles)</br>
         Cualquier Anillo + Amatista Perfecta = +5 Fuerza (+8 Niveles)</br>
-        Cualquier Anillo + Diamante Perfecto = +3% Todas las Resistencias (+9 Niveles)</br></br>
+        Cualquier Anillo + Diamante Perfecto = +3% Todas las Resistencias (+9 Niveles)</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_17_varios">REDUCIR REQUISITOS</p></br>
         <p class="cubo_content">
         Reducir el Requeriemiento de Nivel Para Equipar Items Adiquiridos De Otras Formulas del Cubo o Runewords Mejorados</br>
         Cualquier Item + 3 Joyas Magicas + Runa Zod = -2 al Nivel Requerido Para Equipar el Item .**</br>
-        ** No va a Reducir el Nivel Requerido del Item Debajo de su Nivel Base (Ej: Quemadura Glacial es Minimo Nivel 29). Esta Formula Realmente Solo es Buena Para Remover Niveles Añadidos por Otras Formulas Del Cubo o Runewords Con Nivel Requerido Mas Alto que el de las Runas</br></br>
+        ** No va a Reducir el Nivel Requerido del Item Debajo de su Nivel Base (Ej: Quemadura Glacial es Minimo Nivel 29). Esta Formula Realmente Solo es Buena Para Remover Niveles Añadidos por Otras Formulas Del Cubo o Runewords Con Nivel Requerido Mas Alto que el de las Runas</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_18_varios">REPARAR DURABILIDAD DE ITEM ETEREO</p></br>
         <p class="cubo_content">
-        Cualquier Item Etereo + 2 Joyas Unicas + Runa Pul = Reparación Completa de la Durabilidad</br></br>
+        Cualquier Item Etereo + 2 Joyas Unicas + Runa Pul = Reparación Completa de la Durabilidad</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_19_varios">CREAR ITEM ETEREO</p></br>
         <p class="cubo_content">
-        Cualquier Arma/Tipo de Armadura/Escudo + 2 Joyas Unicas + Runa Ohm = Item Etereo Normal (Puede ser Superior)</br></br>
+        Cualquier Arma/Tipo de Armadura/Escudo + 2 Joyas Unicas + Runa Ohm = Item Etereo Normal (Puede ser Superior)</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_20_varios">CUALQUIER TIPO DE ARMA Y RUNAS</p></br>
@@ -367,7 +357,7 @@
         Cualquier Arma + 3 Joyas Magicas + Runa Ber = +.75% Golpe Triturador/Nivel (+35 Niveles)</br>
         Cualquier Arma + 3 Joyas Magicas + Runa Jah = Ignorar Defensa del Objetivo (+25 Niveles)</br>
         Cualquier Arma + 3 Joyas Magicas + Runa Cham = Congela al Objetivo (2s) (+18 Niveles)</br>
-        Runa Ort + Arma = Repara el Arma</br></br>
+        Runa Ort + Arma = Repara el Arma</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_21_varios">CUALQUIER TIPO DE ARMADURA Y RUNAS</p></br>
@@ -399,7 +389,7 @@
         Cualquier Armadura de Torso + 3 Joyas Magicas + Runa Mal = Daño Mágico Reducido en 2 (+2 Niveles)</br>
         Cualquier Armadura de Torso + 3 Joyas Magicas + Runa Ist = +30% Posibilidades de Encontrar un Objeto Magico(+15 Niveles)</br>
         Cualquier Armadura de Torso + 3 Joyas Magicas + Runa Sur = +5% Mana Maximo (+10 Niveles)</br>
-        Cualquier Armadura de Torso + 3 Joyas Magicas + Runa Jah = +5% Vida Maxima (+10 Niveles)</br></br>
+        Cualquier Armadura de Torso + 3 Joyas Magicas + Runa Jah = +5% Vida Maxima (+10 Niveles)</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_22_varios">CINTURON/BOTAS/GUANTES/CASCOS Y RUNAS</p></br>
@@ -419,7 +409,7 @@
         Cualquier Cinturon/Botas/Guantes/Cascos + 3 Joyas Magicas + Runa Mal = Daño Mágico Reducido en 1 (+2 Niveles)</br>
         Cualquier Cinturon/Botas/Guantes/Cascos + 3 Joyas Magicas + Runa Ist = +15 Posibilidades de Encontrar un Objeto Magico(+15 Niveles)</br>
         Cualquier Cinturon/Botas/Guantes/Cascos + 3 Joyas Magicas + Runa Sur = +4% Mana Maximo (+12 Niveles)</br>
-        Cualquier Cinturon/Botas/Guantes/Cascos + 3 Joyas Magicas + Runa Jah = +4% Vida Maxima (+12 Niveles)</br></br>
+        Cualquier Cinturon/Botas/Guantes/Cascos + 3 Joyas Magicas + Runa Jah = +4% Vida Maxima (+12 Niveles)</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_23_varios">ESCUDOS Y RUNAS</p></br>
@@ -450,7 +440,7 @@
         Cualquier Escudo + 3 Joyas Magicas + Runa Sur = 50 Mana (+13 Niveles)</br>
         Cualquier Escudo + 3 Joyas Magicas + Runa Ber = 8% Daño Reducido (+18 Niveles)</br>
         Cualquier Escudo + 3 Joyas Magicas + Runa Jah = 50 Vida (+11 Niveles)</br>
-        Cualquier Escudo + 3 Joyas Magicas + Runa Cham = No Puede Congelarse (+20 Niveles)</br></br>
+        Cualquier Escudo + 3 Joyas Magicas + Runa Cham = No Puede Congelarse (+20 Niveles)</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_24_varios">HECHIZOS ARTESANALES</p></br>
@@ -464,7 +454,7 @@
         Gran Hechizo Magico + 2 Joyas Unicas + Runa El + 2 Runas Um = +15%-20% Todas las Resistencias</br>
         Gran Hechizo Magico + 2 Joyas Unicas + Runa El + 2 Runas Ist = 20%-35% Posibilidad de Encontrar un Objeto Magico</br>
         Gran Hechizo Magico + 2 Joyas Unicas + Runa El + 2 Runas Ohm = 5%-12% A la Experiencia Ganada</br>
-        Gran Hechizo Magico + 3 Joyas Unicas + Runa El + Runa Zod = +1 a Todas las Habilidades</br></br>
+        Gran Hechizo Magico + 3 Joyas Unicas + Runa El + Runa Zod = +1 a Todas las Habilidades</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_25_varios">AMULETOS ARTESANALES</p></br>
@@ -480,7 +470,7 @@
         Amuleto Unico + 4 Joyas Unicas + Runa Mal = +1 Niveles Paladin + 2 Habilidades de Combate (Pal)</br>
         Amuleto Unico + 4 Joyas Unicas + Runa Mal = +1 Niveles Druida + 2 Cambio de Forma (Dru)</br>
         Amuleto Unico + 4 Joyas Unicas + Runa Mal = +1 Niveles Asesina + 2 Disciplinas de las Sombras (Ass)</br>
-        Amuleto Unico + 3 Joyas Unicas + Runa Ohm + Runa Jah = + 2 a Todas las Habilidades + 35%-50% Posibilidad de Encontrar un Objeto Mágico + 1-3% A la Experiencia Ganada</br></br>
+        Amuleto Unico + 3 Joyas Unicas + Runa Ohm + Runa Jah = + 2 a Todas las Habilidades + 35%-50% Posibilidad de Encontrar un Objeto Mágico + 1-3% A la Experiencia Ganada</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_26_varios">ANILLOS ARTESANALES</p></br>
@@ -496,7 +486,7 @@
         Anillo Unico + 3 Joyas Unicas + Runa Sur = 15-20% Aumenta la Vida Maxima</br>
         Anillo Unico + 3 Joyas Unicas + Runa Ber = 7-10% Daño Reducido</br>
         Anillo Unico + 3 Joyas Unicas + Runa Jah = 15-20% Aumenta el Mana Maximo</br>
-        Anillo Unico + 3 Joyas Unicas + Runa Cham = 10-15% Absorcion de Fuego, Frio y Rayo</br></br>
+        Anillo Unico + 3 Joyas Unicas + Runa Cham = 10-15% Absorcion de Fuego, Frio y Rayo</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_27_varios">ARMAS ARTESANALES</p></br>
@@ -508,7 +498,7 @@
         Arma Rara + 2 Joyas Raras + Runa Shael + Runa Fal = +80-100% Daño Mejorado, +20% Aumenta la Velocidad de Ataque & +1 Todas las Habilidades</br>
         Arma Rara + 2 Joyas Raras + Runa Amn + Runa Vex = +100-140% Daño Mejorado, +6%-8% Dual Leech & +1 a Todas las Habilidades</br>
         Arma Rara + 2 Joyas Unicas + Runa Ohm + Runa Sur = +150-175% Daño Mejorado & +1 Todas las Habilidades & +30% Aumenta la Velocidad de Ataque & 30% Posibilidad de Encontrar un Objeto Magico</br>
-        Arma Rara + 2 Joyas Unicas + Runa Ber + Runa Cham + Runa Zods = +200-300% Daño Mejorado & +2 Todas las Habilidades & +40% Aumenta la Velocidad de Ataque & 75% Posibilidad de Encontrar un Objeto Magico</br></br>
+        Arma Rara + 2 Joyas Unicas + Runa Ber + Runa Cham + Runa Zods = +200-300% Daño Mejorado & +2 Todas las Habilidades & +40% Aumenta la Velocidad de Ataque & 75% Posibilidad de Encontrar un Objeto Magico</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_28_varios">ARMADURAS DE TORSO ARTESANALES</p></br>
@@ -520,7 +510,7 @@
         Armadura de Torso Rara + Joya Rara + Runa Fal + Runa Dol = 65-80% Defensa Mejorada & 15% Aumenta la Velocidad de Ataque & 15% Correr/Andar mas Rapido</br>
         Armadura de Torso Rara + Joya Unica + Runa Pul + Runa Ist = 80-100% Defensa Mejorada & 50-75% Posibilidad de Encontrar un Objeto Magico & 15% Velocidad de Lanzamiento Mayor</br>
         Armadura de Torso Rara + Joya Unica + Runa Gul + Runa Lo = 100-125% Defensa Mejorada & +1 Todas las Habilidades & +10 Todos los Atributos</br>
-        Armadura de Torso Rara + Joya Unica + Runa Sur + Runa Jah = 125-150% Defensa Mejorada & +2 Todas las Habilidades & +10 Repostar Vida & +75-100% Regenerar Mana</br></br>
+        Armadura de Torso Rara + Joya Unica + Runa Sur + Runa Jah = 125-150% Defensa Mejorada & +2 Todas las Habilidades & +10 Repostar Vida & +75-100% Regenerar Mana</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_29_varios">GUANTES ARTESANALES</p></br>
@@ -530,7 +520,7 @@
         Guantes Raros + Joya Magica + Amatista Normal = 20-30 Vida & 20-30 Mana</br>
         Guantes Raros + Joya Rara + Runa Ith + Runa Hel = 20% Aumenta la Velocidad de Ataque & +5-10 Fuerza & +5-10 Destreza</br>
         Guantes Raros + Joya Unica + Runa Lem + Runa Ist = 75-100% Oro Extra & 40-50% Posibilidad de Encontrar un Objeto Magico & 75-100% Defensa Mejorada</br>
-        Guantes Raros + 2 Joyas Unicas + Runa Ber + Runa Jah = +1 Todas las Habilidades & 75-100% Defensa Mejorada & 25% Aumenta la Velocidad de Ataque & 20% Velocidad de Lanzamiento & Golpe Triturador Por Nivel (25% Chance)</br>
+        Guantes Raros + 2 Joyas Unicas + Runa Ber + Runa Jah = +1 Todas las Habilidades & 75-100% Defensa Mejorada & 25% Aumenta la Velocidad de Ataque & 20% Velocidad de Lanzamiento & Golpe Triturador Por Nivel (25% Chance)</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_30_varios">CINTURONES ARTESANALES</p></br>
@@ -540,7 +530,7 @@
         Cinturon Raro + Joya Magica + Esmeralda Normal = 40-50% Defensa & 3-5 Vida Tras Cada Muerte</br>
         Cinturon Raro + Joya Rara + Runa Ral + Runa Io = Repostar Vida +3-6 & Regenerar Mana +40-60%</br>
         Cinturon Raro + Joya Unica + Runa Lum + Runa Ohm = Reduce Duración del Veneno 50-75% & 5-10% Daño Reducido</br>
-        Cinturon Raro + 2 Joyas Unicas + Runa Ist + Runa Cham = +1 Todas las Habilidades & 2-3 A la Experiencia Ganada & Reduce el Precio de los Vendedores 3-5%</br></br>
+        Cinturon Raro + 2 Joyas Unicas + Runa Ist + Runa Cham = +1 Todas las Habilidades & 2-3 A la Experiencia Ganada & Reduce el Precio de los Vendedores 3-5%</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_31_varios">BOTAS ARTESANALES</p></br>
@@ -550,7 +540,7 @@
         Botas Raras + Joya Magica + Zafiro Normal = 25-50% Defensa Mejorada & 10-15 Destreza</br>
         Botas Raras + Joya Rara + Runa Eth + Runa Sol = 20% Recuperacion de Impacto mas Rapida & 30% Correr/Andar mas Rapido</br>
         Botas Raras + Joya Unica + Runa Ko + Runa Um = +5-10 Daño de Patadas & +35-50% Daño Mejorado</br>
-        Botas Raras + 2 Joyas Unicas + Runa Lo + Runa Ver = +1 A Todas las Habilidades & 75-100% Defensa Mejorada & 30% Correr/Andar mas Rapido</br></br>
+        Botas Raras + 2 Joyas Unicas + Runa Lo + Runa Ver = +1 A Todas las Habilidades & 75-100% Defensa Mejorada & 30% Correr/Andar mas Rapido</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_32_varios">YELMOS ARTESANALES</p></br>
@@ -560,7 +550,7 @@
         Yelmos/Aros Raros + Joya Magica + Topacio Normal = 50-60% Defensa Mejorada & +1 A Todas las Habilidades</br>
         Yelmos/Aros Raros + Joya Rara + Runa Tal + Runa Amn = 15% Velocidad de Lanzamiento Mayor & 20% Recuperacion de Impacto mas Rapida</br>
         Yelmos/Aros Raros + Joya Unica + Runa Lum + Runa Mal = +1 a Todas las Habilidades & 70-80% Defensa Mejorada & +10-20 Energia</br>
-        Yelmos/Aros Raros + 2 Joyas Unicas + Runa Ohm + Runa Cham = +2 A Todas las Habilidades & 10% Daño Repercute en el Mana & 15% Velocidad de Bloqueo & +5-8 Vida Tras Cada Muerte</br></br>
+        Yelmos/Aros Raros + 2 Joyas Unicas + Runa Ohm + Runa Cham = +2 A Todas las Habilidades & 10% Daño Repercute en el Mana & 15% Velocidad de Bloqueo & +5-8 Vida Tras Cada Muerte</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_33_varios">ESCUDOS ARTESANALES</p></br>
@@ -570,18 +560,18 @@
         Escudo Raro + Joya Magica + Craneo Normal = 20% Recuperacion de Impacto mas Rapida & 20% Velocidad de Bloqueo</br>
         Escudo Raro + Joya Rara + Runa Thul + Runa Dol = 50-75% Defensa Mejorada & 5% Vida Robada por Impacto & 10-15% Aumenta la Posibilidad de Bloqueo</br>
         Escudo Raro + Joya Unica + Runa Hel + Runa Pul = 65-90% Defensa Mejorada & 30% Velocidad de Bloqueo & 20-30% Todas las Resistencias</br>
-        Escudo Raro + 2 Joyas Unicas + Runa Vex + Runa Sur = +2 A Todas las Habilidades & 2-3 Agujeros & 30% Aumenta la Posibilidad de Bloqueo & 25-50% Daño Mejorado</br>
+        Escudo Raro + 2 Joyas Unicas + Runa Vex + Runa Sur = +2 A Todas las Habilidades & 2-3 Agujeros & 30% Aumenta la Posibilidad de Bloqueo & 25-50% Daño Mejorado</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_34_varios">FLECHAS/SAETAS ARTESANALES</p></br>
         <p class="cubo_content"> 
         No gana ningún mod extra a menos que este activado.
-        Flechas/Saetas + Joya Rara + Runa Thul = 100% Chance De Lanzar Nivel 6 Campo Estatico Al Azotar, Evita la Curación del Monstruo
-        Flechas/Saetas + Joya Rara + Runa Sol = 100% Chance De Lanzar Nivel 13 Nova de Escarcha Al Azotar, Evita la Curación del Monstruo
-        Flechas/Saetas + Joya Rara + Runa Dol = 100% Chance De Lanzar Nivel 1 Aumento de Daños Al Azotar, Evita la Curación del Monstruo
-        Flechas/Saetas + Joya Rara + Runa Io = 100% Chance De Lanzar Nivel 3 Explosion de Cadaveres Al Azotar, Evita la Curación del Monstruo
-        Flechas/Saetas + Joya Rara + Runa Ko = 100% Chance De Lanzar Nivel 9 Decrepitación Al Azotar, Evita la Curación del Monstruo
-        Flechas/Saetas + Joya Rara + Runa Lem = 100% Chance De Lanzar Nivel 9 Reducción de Resistencias Al Azotar, Evita la Curación del Monstruo
+        Flechas/Saetas + Joya Rara + Runa Thul = 100% Chance De Lanzar Nivel 6 Campo Estatico Al Azotar, Evita la Curación del Monstruo</br>
+        Flechas/Saetas + Joya Rara + Runa Sol = 100% Chance De Lanzar Nivel 13 Nova de Escarcha Al Azotar, Evita la Curación del Monstruo</br>
+        Flechas/Saetas + Joya Rara + Runa Dol = 100% Chance De Lanzar Nivel 1 Aumento de Daños Al Azotar, Evita la Curación del Monstruo</br>
+        Flechas/Saetas + Joya Rara + Runa Io = 100% Chance De Lanzar Nivel 3 Explosion de Cadaveres Al Azotar, Evita la Curación del Monstruo</br>
+        Flechas/Saetas + Joya Rara + Runa Ko = 100% Chance De Lanzar Nivel 9 Decrepitación Al Azotar, Evita la Curación del Monstruo</br>
+        Flechas/Saetas + Joya Rara + Runa Lem = 100% Chance De Lanzar Nivel 9 Reducción de Resistencias Al Azotar, Evita la Curación del Monstruo</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_35_varios">SUPERSETS</p></br>
@@ -592,7 +582,7 @@
         Armadura de Mavina + Armadura Sagrada de Aragor + Coraza de Arquera + Runa Zod = Salida</br>
         Guantes de Mavina + Guantes de Arquera + Runa Zod = Manillas</br>
         Cinturon de Mavina + Cinturon de Arquera + Runa Zod = Cintura</br>
-        Arco de Mavina + Gran Arco de Arquera + Runa Zod = Lanzadera</br></br>
+        Arco de Mavina + Gran Arco de Arquera + Runa Zod = Lanzadera</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_37_varios">SUPERSET ASESINA</p></br>
@@ -600,7 +590,7 @@
         Totem de Natalya + Cara de Totem + Runa Zod = Ojos</br>
         Marca de Natalya + Guisa + Runa Zod = Pinchador</br>
         Sombra de Natalya + Coraza del Fantasma + Runa Zod = Sudadera</br>
-        Coraza del Fantasma + Alma de Natalya + Runa Zod = Pisaditas</br></br>
+        Coraza del Fantasma + Alma de Natalya + Runa Zod = Pisaditas</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_38_varios">SUPERSET NIGROMANTE</p></br>
@@ -608,7 +598,7 @@
         Escudo de Trang-Oul + Escudo Vacuno + Runa Zod = Capa</br>
         Guantes de Trang-Oul + Guantes Vacunos + Runa Zod = Zombi</br>
         Casco de Trang-Oul + Garras de Trang-Oul + Runa Zod = Huella</br>
-        Cinturon de Trang-Oul + Caos Vacuno + Runa Zod = Gran Cinto</br></br>
+        Cinturon de Trang-Oul + Caos Vacuno + Runa Zod = Gran Cinto</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_39_varios">SUPERSET BARBARO</p></br>
@@ -616,7 +606,7 @@
         Cinturon del Rey Inmortal + Casco de Tarlic + Runa Zod = Cabezon</br>
         Maza del Rey Inmortal + Armadura de Tarlic + Runa Zod = Pretoriano</br>
         Guantes del Rey Inmortal + Cinturon de Tarlic + Runa Zod = Esclavo</br>
-        Botas del rey Inmortal + Guantes de Tarlic + Runza Zod = Piel de Risa</br></br>
+        Botas del rey Inmortal + Guantes de Tarlic + Runza Zod = Piel de Risa</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_40_varios">SUPERSET PALADIN</p></br>
@@ -624,7 +614,7 @@
         Escudo de Milabrega + Escudo de Hephasto + Runa Zod = Coronacion</br>
         Casco de Milabrega + Martillo de Hephasto + Runa Zod = Coraza Blanca</br>
         Redencion de Griswold(Caduceus) + Valor de Hephasto + Runa Zod = Ejecutore</br>
-        Armadura de Griswold + Corazon de Hephasto + Runa Zod = Para Ostias</br></br>
+        Armadura de Griswold + Corazon de Hephasto + Runa Zod = Para Ostias</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_41_varios">SUPERSET HECHICERA</p></br>
@@ -632,7 +622,7 @@
         Oculo de Tal-Rasha + Oculo de Vampira + Runa Zod = Lacitos</br>
         Amuleto de Tal-Rasha + Amuleto de vampira + Runa Zod = Regalito</br>
         Oculo de Tal-Rasha + Vestiduras de Vampira + Runa Zod = Umonero</br>
-        Mascara de Tal-Rasha + Vestiduras de vampira + Runa Zod = La Gran Plata</br></br>
+        Mascara de Tal-Rasha + Vestiduras de vampira + Runa Zod = La Gran Plata</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_42_varios">SUPERSET DRUIDA</p></br>
@@ -640,7 +630,7 @@
         Casco de Aldur + Pisadas del Druida + Runa Zod = Silencio</br>
         Aramadura de Aldur + Mirada de Druida + Runa Zod = Natural</br>
         Palo de Aldur + Pecho descubierto + Runa Zod = Capilla</br>
-        Botas de Aldur + Palo del druida + Runa Zod = Saquito</br></br>
+        Botas de Aldur + Palo del druida + Runa Zod = Saquito</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_43_varios">ARMADURAS, ESCUDOS Y ARMAS ENGARZADAS (RW)</p></br>
@@ -652,7 +642,7 @@
         Arma Magica + 3 Runas Ari = Arma Magica con 3 agujeros</br>
         Arma Magica + 4 Runas Ari = Arma Magica con 4 agujeros</br>
         Arma Magica + 5 Runas Ari = Arma Magica con 5 agujeros</br>
-        Arma Magica + 6 Runas Ari = Arma Magica con 6 agujeros</br></br>
+        Arma Magica + 6 Runas Ari = Arma Magica con 6 agujeros</br></br></br>
         </p>
 
 
@@ -662,7 +652,7 @@
         Cualquier Arma + 3 Runas Can = Añade 1-75 de daño fuego (+11 Niveles)</br>
         Cualquier Arma + 3 Runas Cap = Añade 1-75 de daño frio (+11 Niveles)</br>
         Cualquier Arma + 3 Runas Mo = Añade 1-75 de daño minimo de veneno (+11 Niveles)</br>
-        Cualquier Arma + 3 Runas Sco = Añade 1-75 de daño (+11 Niveles)</br></br>
+        Cualquier Arma + 3 Runas Sco = Añade 1-75 de daño (+11 Niveles)</br></br></br>
         </p>
 
 
@@ -677,7 +667,7 @@
         Cualquier Armadura + 4 Runas Can = Añade +1-75% a resistencia de fuego (+11 Niveles)</br>
         Cualquier Armadura + 4 Runas Cap = Añade +1-75% a resistencia de frio (+11 Niveles)</br>
         Cualquier Armadura + 4 Runas Mo = Añade +1-75% a resistia de veneno (+11 Niveles)</br>
-        Cualquier Armadura + 4 Runas Sco = Añade +1-75% a da?o reducido (+11 Niveles)</br></br>
+        Cualquier Armadura + 4 Runas Sco = Añade +1-75% a da?o reducido (+11 Niveles)</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_46_varios">ESCUDOS Y NUEVAS RUNAS</p></br>
@@ -691,52 +681,52 @@
         Cualquier Escudo + 6 Runas Can = Añade +1-75 a absorcion de fuego (+11 Niveles)</br>
         Cualquier Escudo + 6 Runas Cap = Añade +1-75 a absorcion de frio (+11 Niveles)</br>
         Cualquier Escudo + 6 Runas Mo = Duracion de veneno reducida en 1-75% (+11 Niveles)</br>
-        Cualquier Armadura + 6 Runas Sco = Añade +1-75 a da?o reducido (+11 Niveles)</br></br>
+        Cualquier Armadura + 6 Runas Sco = Añade +1-75 a da?o reducido (+11 Niveles)</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_47_varios">HECHIZOS ARTESANALES</p></br>
         <p class="cubo_content">
         Hechizo Pequeño:</br>
-        20-40 de Vida, 20-40 de Mana, 10-15 Destreza, 10-15 Fuerza, 1-5 a Todas las Habilidades para el Personaje, dependiendo del Hechizo que se haga.</br></br>
+        20-40 de Vida, 20-40 de Mana, 10-15 Destreza, 10-15 Fuerza, 1-5 a Todas las Habilidades para el Personaje, dependiendo del Hechizo que se haga.</br></br></br>
 
         Hechizo Grande con excepcion de Nigromante y el de Hechicera:</br>
-        80-200% de Daño, 20-40 de Mana, 10-15 Destreza, 10-15 Fuerza, 1-5 a todas las Habilidades para el Personaje, dependiendo del Hechizo que se haga.</br></br>
+        80-200% de Daño, 20-40 de Mana, 10-15 Destreza, 10-15 Fuerza, 1-5 a todas las Habilidades para el Personaje, dependiendo del Hechizo que se haga.</br></br></br>
 
         Hechizo Grande para Nigromante:</br>
-        80-200 de Daño de Veneno, 20-40 de Mana, 20 de Daño Elemental, 10-15 de Daño, 1-5 a Todas las Habilidades para el Personaje, dependiendo del Hechizo que se haga.</br></br>
+        80-200 de Daño de Veneno, 20-40 de Mana, 20 de Daño Elemental, 10-15 de Daño, 1-5 a Todas las Habilidades para el Personaje, dependiendo del Hechizo que se haga.</br></br></br>
 
         Hechizo Grande para Hechicera:</br>
-        1-3 de Daño de Rayos, 1-2 de Daño Fuego, 1-2 de Daño Frio, 10-15 Fuerza, 1-5 a Todas las Habilidades para el Personaje, dependiendo del Hechizo que se haga.</br></br>
+        1-3 de Daño de Rayos, 1-2 de Daño Fuego, 1-2 de Daño Frio, 10-15 Fuerza, 1-5 a Todas las Habilidades para el Personaje, dependiendo del Hechizo que se haga.</br></br></br>
 
         Gran Hechizo con excepcion de Nigromante y el de Hechicera:</br>
-        80-200% de Daño, 20-40 de Mana, 10-15 Destreza, 10-15 Fuerza, 1-5 a Todas las Habilidades para el Personaje, dependiendo del Hechizo que se haga.</br></br>
+        80-200% de Daño, 20-40 de Mana, 10-15 Destreza, 10-15 Fuerza, 1-5 a Todas las Habilidades para el Personaje, dependiendo del Hechizo que se haga.</br></br></br>
 
         Gran Hechizo para Nigromante:</br>
-        80-200 de Daño de Veneno, 20-40 de Mana, 20 de Daño Elemental, 10-15 de Daño, 1-5 a Todas las Habilidades para el Personaje, dependiendo del Hechizo que se haga.</br></br>
+        80-200 de Daño de Veneno, 20-40 de Mana, 20 de Daño Elemental, 10-15 de Daño, 1-5 a Todas las Habilidades para el Personaje, dependiendo del Hechizo que se haga.</br></br></br>
 
         Gran Hechizo para Hechicera:</br>
-        1-3 de Daño de Rayos, 1-2 de Daño Fuego, 1-2 de Daño Frio, 10-15 Fuerza, 1-5 a Todas las Habilidades para el Personaje, dependiendo del Hechizo que se haga.</br></br>
+        1-3 de Daño de Rayos, 1-2 de Daño Fuego, 1-2 de Daño Frio, 10-15 Fuerza, 1-5 a Todas las Habilidades para el Personaje, dependiendo del Hechizo que se haga.</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_48_varios">HECHIZOS ARTESANALES - AMAZONA</p></br>
         <p class="cubo_content">
         4 Hechizos Magicos Pequeños + 6 Runas Es + 1 Runa Or + 1 Runa Noa + 1 Runa Frio + 1 Runa Fu + 1 Runa Ge</br>
         4 Hechizos Magicos Medianos + 6 Runas Es + 1 Runa Or + 1 Runa Noa + 1 Runa Frio + 1 Runa Fu + 1 Runa Ge</br>
-        4 Hechizos Magicos Grandes + 6 Runas Es + 1 Runa Or + 1 Runa Noa + 1 Runa Frio + 1 Runa Fu + 1 Runa Ge</br></br>
+        4 Hechizos Magicos Grandes + 6 Runas Es + 1 Runa Or + 1 Runa Noa + 1 Runa Frio + 1 Runa Fu + 1 Runa Ge</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_49_varios">HECHIZOS ARTESANALES - ASESINA</p></br>
         <p class="cubo_content">
         4 Hechizos Magicos Pequeños + 6 Runas Or + 1 Runa Noa + 1 Runa Frio + 1 Runa Fu + 1 Runa Ge +1 Runa Ar</br>
         4 Hechizos Magicos Medianos + 6 Runas Or + 1 Runa Noa + 1 Runa Frio + 1 Runa Fu + 1 Runa Ge +1 Runa Ar</br>
-        4 Hechizos Magicos Grandes + 6 Runas Or + 1 Runa Noa + 1 Runa Frio + 1 Runa Fu + 1 Runa Ge +1 Runa Ar</br></br>
+        4 Hechizos Magicos Grandes + 6 Runas Or + 1 Runa Noa + 1 Runa Frio + 1 Runa Fu + 1 Runa Ge +1 Runa Ar</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_50_varios">HECHIZOS ARTESANALES - BARBARO</p></br>
         <p class="cubo_content">
         4 Hechizos Magicos Pequeños + 6 Runas Noa + 1 Runa Frio + 1 Runa Fu + 1 Runa Ge + 1 Runa Ar + 1 Runa Leo</br>
         4 Hechizos Magicos Medianos + 6 Runas Noa + 1 Runa Frio + 1 Runa Fu + 1 Runa Ge + 1 Runa Ar + 1 Runa Leo</br>
-        4 Hechizos Magicos Grandes + 6 Runas Noa + 1 Runa Frio + 1 Runa Fu + 1 Runa Ge + 1 Runa Ar + 1 Runa Leo</br></br>
+        4 Hechizos Magicos Grandes + 6 Runas Noa + 1 Runa Frio + 1 Runa Fu + 1 Runa Ge + 1 Runa Ar + 1 Runa Leo</br></br></br>
         </p>
 
 
@@ -744,7 +734,7 @@
         <p class="cubo_content">
         4 Hechizos Magicos Pequeños + 6 Runas Frio + 1 Runa Fu + 1 Runa Ge + 1 Runa Ar + 1 Runa Leo + 1 Runa Libra</br>
         4 Hechizos Magicos Medianos + 6 Runas Frio + 1 Runa Fu + 1 Runa Ge + 1 Runa Ar + 1 Runa Leo + 1 Runa Libra</br>
-        4 Hechizos Magicos Grandes + 6 Runas Frio + 1 Runa Fu + 1 Runa Ge + 1 Runa Ar + 1 Runa Leo + 1 Runa Libra</br></br>
+        4 Hechizos Magicos Grandes + 6 Runas Frio + 1 Runa Fu + 1 Runa Ge + 1 Runa Ar + 1 Runa Leo + 1 Runa Libra</br></br></br>
         </p>
 
 
@@ -752,21 +742,21 @@
         <p class="cubo_content">
         4 Hechizos Magicos Pequeños + 6 Fu + 1 Runa Ge +1 Runa Ar + 1 Runa Leo + 1 Runa Libra + 1 Runa Ma</br>
         4 Hechizos Magicos Medianos + 6 Fu + 1 Runa Ge +1 Runa Ar + 1 Runa Leo + 1 Runa Libra + 1 Runa Ma</br>
-        4 Hechizos Magicos Grandes + 6 Fu + 1 Runa Ge +1 Runa Ar + 1 Runa Leo + 1 Runa Libra + 1 Runa Ma</br></br>
+        4 Hechizos Magicos Grandes + 6 Fu + 1 Runa Ge +1 Runa Ar + 1 Runa Leo + 1 Runa Libra + 1 Runa Ma</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_53_varios">HECHIZOS ARTESANALES - PALADIN</p></br>
         <p class="cubo_content">
         4 Hechizos Magicos Pequeños + 6 Runas Ge + 1 Runa Ar + 1 Runa Leo + 1 Runa Libra + 1 Runa Ma + 1 Runa Mis</br>
         4 Hechizos Magicos Medianos + 6 Runas Ge + 1 Runa Ar + 1 Runa Leo + 1 Runa Libra + 1 Runa Ma + 1 Runa Mis</br>
-        4 Hechizos Magicos Grandes + 6 Runas Ge + 1 Runa Ar + 1 Runa Leo + 1 Runa Libra + 1 Runa Ma + 1 Runa Mis</br></br>
+        4 Hechizos Magicos Grandes + 6 Runas Ge + 1 Runa Ar + 1 Runa Leo + 1 Runa Libra + 1 Runa Ma + 1 Runa Mis</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_54_varios">HECHIZOS ARTESANALES - HECHICERA</p></br>
         <p class="cubo_content">
         4 Hechizos Magicos Pequeños + 6 Runas Ar + 1 Runa Leo + 1 Runa Libra + 1 Runa Ma + 1 Runa Mis + 1 Runa Oma</br>
         4 Hechizos Magicos Medianos + 6 Runas Ar + 1 Runa Leo + 1 Runa Libra + 1 Runa Ma + 1 Runa Mis + 1 Runa Oma</br>
-        4 Hechizos Magicos Grandes + 6 Runas Ar + 1 Runa Leo + 1 Runa Libra + 1 Runa Ma + 1 Runa Mis + 1 Runa Oma</br></br>
+        4 Hechizos Magicos Grandes + 6 Runas Ar + 1 Runa Leo + 1 Runa Libra + 1 Runa Ma + 1 Runa Mis + 1 Runa Oma</br></br></br>
         </p>
 
         <p class="formulas_c" id="cubo_55_varios">DISMINUCION DE REQUIRIMIENTOS</p></br>
@@ -775,7 +765,7 @@
         Cualquier Armadura + 4 Runas Tau + 1 Esmeralda Perfecta + 1 Joya Magica + 2 Joyas Unicas</br>
         Cualquier Escudo + 4 Runas Umno + 1 Esmeralda Perfecta + 1 Joya Magica + 2 Joyas Unicas</br>
         Cualquier Anillo + 4 Runas Ven + 1 Esmeralda Perfecta + 1 Joya Magica + 2 Joyas Unicas</br>
-        Cualquier Amuleto + 4 Runas Vir + 1 Esmeralda Perfecta + 1 Joya Magica + 2 Joyas Unicas</br></br>
+        Cualquier Amuleto + 4 Runas Vir + 1 Esmeralda Perfecta + 1 Joya Magica + 2 Joyas Unicas</br></br></br>
         </p>
     </div>
 </body>
