@@ -287,14 +287,14 @@ LISTA DE OBJETOS UNICOS
     font-size:10px;
 }
 
-.fondo_tabla .tabla_objeto .titulo{
+.tabla_objeto .titulo{
     font-weight: bold;
     font-size:11px;
     font-family: 'Cabin', sans-serif;
     color:#999966;
 }
 
-.fondo_tabla .tabla_objeto .objeto{
+.tabla_objeto .objeto{
     font-size: 10px;
     font-family: 'Cabin', sans-serif;
     padding-top:1px;
