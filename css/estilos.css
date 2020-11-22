@@ -189,13 +189,11 @@ CONTENIDO PRINCIPAL
     font-size:19px;
     transform-style:uppercase;
     font-weight:bold;
-    color:yellow;
 }
 
 #contenedor p{
     font-family:'Cabin',sans-serif;
     font-size:16px;
-    color: greenyellow;
     text-align:justify;
 }
 
