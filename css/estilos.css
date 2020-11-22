@@ -284,18 +284,18 @@ LISTA DE OBJETOS UNICOS
 .tabla_propiedades{
     font-family: 'Cabin', sans-serif;
     text-align:left;
-    font-size:12px;
+    font-size:10px;
 }
 
 #contenedor .fondo_tabla .tabla_objeto .titulo{
     font-weight: bold;
-    font-size:13px;
+    font-size:11px;
     font-family: 'Cabin', sans-serif;
     color:#999966;
 }
 
 #contenedor .fondo_tabla .tabla_objeto .objeto{
-    font-size: 12px;
+    font-size: 10px;
     font-family: 'Cabin', sans-serif;
     padding-top:1px;
     text-align:center;
