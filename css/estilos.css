@@ -17,7 +17,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
 /*Estoy importando las siguientes fuentes: Cabin, Roboto, Montserrat, Quicksand, Lato */
 
 #todo{
-    width:100%;
+    width:91%;
     margin: 15px auto;
     background-image: url(imgs/fondo1.jpg);
     background-size:cover;
@@ -44,7 +44,7 @@ header{
     height:2em;
     padding-top:15px;
     padding-left:50px;
-    border-top: 4px solid #999966;
+    border-top: 4px solid yellow;
     ;
 }
 
@@ -79,7 +79,7 @@ header{
 
 #barra a:hover{
     color:rgba(255,255,255);
-    border-bottom: 5px solid #999966;
+    border-bottom: 5px solid yellow;
     ;
     padding-bottom: 10px;
     font-weight: bold;
@@ -126,7 +126,7 @@ BARRA LATERAL IZQUIERDA
     margin-right:20px;
     margin-left:0px;
     font-family:'Cabin',sans-serif;
-    font-size:13px;
+    font-size:12px;
 }
 
 #blizquierda li{
@@ -201,7 +201,7 @@ CONTENIDO PRINCIPAL
 
 
 #bienvenida h1{
-    color:#999966;
+    color:yellow;
     
 }
 
@@ -304,7 +304,7 @@ LISTA DE OBJETOS UNICOS
     font-weight: bold;
     font-size:11px;
     font-family: 'Cabin', sans-serif;
-    color:#999966;
+    color:yellow;
 }
 
 .tabla_objeto .objeto{

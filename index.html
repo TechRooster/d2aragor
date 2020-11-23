@@ -20,6 +20,10 @@
                 $('#contenedor').load('descargas.html');
                 return false;
             });
+            $('#inicio').click(function(){
+                $('#contenedor').load('index.html');
+                return false;
+            });
         });
         /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
     </script>
@@ -49,7 +53,7 @@
 
     <div id="blizquierda">
         <ul id="izquierda1">
-            <li><a class=item1 href="#">Inicio</a></li>
+            <li><a id="inicio" href="#">Inicio</a></li>
             <li><a class=item1 href="#">Foro</a></li>
             <li><a class=item1 href="#">FAQs</a></li>
         </ul>
