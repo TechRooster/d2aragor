@@ -197,14 +197,6 @@ CONTENIDO PRINCIPAL
     text-align:justify;
 }
 
-#contenedor .tabla_objeto p{
-    text-align:center;
-    font-size:0.8em;
-}
-
-#contenedor .tabla_propiedades p{
-    font-size:0.8em;
-}
 
 #bienvenida h1{
     color:yellow;
@@ -277,6 +269,15 @@ LISTA DE OBJETOS UNICOS
     margin-top:40px;
     margin-bottom:40px;
     font-family: 'Cabin', sans-serif;
+}
+
+#contenedor .tabla_objeto p{
+    text-align:center;
+    font-size:12px;
+}
+
+#contenedor .tabla_propiedades p{
+    font-size:12px;
 }
 
 .tabla_objeto{
