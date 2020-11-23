@@ -320,7 +320,7 @@ CUBO HORADRICO
 
 .formulas_c{
     font-family: 'Cabin', sans-serif;
-    font-size:13.5px;
+    font-size:13px;
     color:yellow;
     font-weight:bold;
 }
@@ -337,7 +337,7 @@ DESCARGAS
 //////////// */
 #descargas p{
     font-family:'Cabin',sans-serif;
-    font-size:16px;
+    font-size:12px;
     text-align:justify;
     color:greenyellow;
 }
