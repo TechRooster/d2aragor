@@ -353,6 +353,14 @@ LLAVES
     color:greenyellow;
 }
 
+#llaves td{
+    padding:4px;
+    margin:2px;
+}
+
+#llaves tr{
+    margin:2px;
+}
 
 /* /////////////
 PIE DE PAGINA
