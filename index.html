@@ -12,6 +12,10 @@
                 $('#contenedor').load('unicos.html');
                 return false;
             });
+            $('#sets').click(function(){
+                $('#contenedor').load('sets.html');
+                return false;
+            });
             $('#cubo').click(function(){
                 $('#contenedor').load('cubo.html');
                 return false;
@@ -78,8 +82,7 @@
             <li><a class=item1 href="#">Normales</a></li>
             <li><a class=item1 href="#">Mágicos</a></li>
             <li><a class=item1 href="#">Raros</a></li>
-            <li><a class=item1 href="#">Artesanales</a></li>
-            <li><a class=item1 href="#">Sets</a></li>
+            <li><a id="sets" href="#">Sets</a></li>
             <li><a id="unicos" href="#">Únicos</a></li>
             <li><a class=item1 href="#">Runas</a></li>
             <li><a class=item1 href="#">Pal. Rúnicas</a></li>
