@@ -340,7 +340,19 @@ DESCARGAS
     font-size:12px;
     text-align:justify;
     color:greenyellow;
+    padding: 2px;
 }
+
+/* ////////////
+LLAVES
+//////////// */
+#llaves{
+    font-family:'Cabin',sans-serif;
+    font-size:12px;
+    text-align:justify;
+    color:greenyellow;
+}
+
 
 /* /////////////
 PIE DE PAGINA
