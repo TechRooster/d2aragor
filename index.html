@@ -24,6 +24,10 @@
                 $('#contenedor').load('inicio.html');
                 return false;
             });
+            $('#llaves').click(function(){
+                $('#contenedor').load('llaves.html');
+                return false;
+            });
         });
         /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
     </script>
@@ -86,6 +90,7 @@
         <ul id="izquierda4">
             <li>CUBO HORÁDRICO</li>
             <li><a id="cubo" href="#">Fórmulas</a></li>
+            <li><a id="llaves" href="#">Llaves</a></li>
         </ul>
     </div>
 
