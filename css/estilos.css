@@ -324,6 +324,15 @@ LISTA DE OBJETOS SET
     color:greenyellow;
 }
 
+#unico_grupo .p_set{
+    font-size:14px;
+    color:yellow;
+    font-weight: bold;
+    font-family:'Cabin', sans-serif;
+    text-align:center;
+    padding-right:15px;
+}
+
 /* ////////
 CUBO HORADRICO
 /////// */
