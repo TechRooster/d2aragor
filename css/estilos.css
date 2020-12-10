@@ -318,7 +318,7 @@ LISTA DE OBJETOS UNICOS
 LISTA DE OBJETOS SET
 //////////// */
 
-#unico_grupo .setitem{
+#unico_grupo a .setitem{
     font-size:11px;
     font-family: 'Cabin', sans-serif;
     color:greenyellow;
