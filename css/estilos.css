@@ -314,6 +314,16 @@ LISTA DE OBJETOS UNICOS
     text-align:center;
 }
 
+/* /////////////
+LISTA DE OBJETOS SET
+//////////// */
+
+#unico_grupo .setitem{
+    font-size:11px;
+    font-family: 'Cabin', sans-serif;
+    color:greenyellow;
+}
+
 /* ////////
 CUBO HORADRICO
 /////// */
