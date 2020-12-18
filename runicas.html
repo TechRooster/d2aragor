@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/jquery-3.5.1.js"></script>
+
+    <script>
+        $(document).ready(function(){
+                $('#unico_grupo a').click(function(){
+                $('#unico_grupo').load('runicas/'+$(this).attr('id')+'.html')
+            });    
+        });
+        /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
+    </script>
+    
+</head>
+<body>
+    <div id="unico_grupo">
+        <table id="unico_tabla">
+            <p class="p_set">OBJETOS DE SET</p></br></br></br>
+            
+            <td>
+                <p class="p_set">PALABRAS RUNICAS</p></br></br></br>
+                <p><a class="setitem" id="dosrunas" href="#">Dos Runas</a></p>
+                <p><a class="setitem" id="tresrunas" href="#">Tres Runas</a></p>
+                <p><a class="setitem" id="cuatrorunas" href="#">Cuatro Runas</a></p>
+                <p><a class="setitem" id="cincorunas" href="#">Cinco Runas</a></p>
+                <p><a class="setitem" id="seisrunas" href="#">Seis Runas</a></p>
+            </td>
+        </table>
+    </div>
+</body>
+</html>
