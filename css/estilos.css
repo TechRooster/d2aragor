@@ -219,7 +219,6 @@ CONTENIDO PRINCIPAL */
     font-family:'Cabin',sans-serif;
     border-radius: 5px;
     min-width:500px;
-    overflow:hidden;
 }
 
 #contenedor h1{
