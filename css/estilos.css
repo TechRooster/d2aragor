@@ -427,7 +427,7 @@ LISTA DE OBJETOS SET */
     font-weight: bold;
 }
 
-#contenedor #set_grupo #antiguo{
+#contenedor #set_tabla #set_grupo #antiguo{
     margin:auto;
     margin-bottom: 20px;
     display:block;
@@ -435,7 +435,7 @@ LISTA DE OBJETOS SET */
     overflow:hidden;
 }
 
-#contenedor #set_grupo #aragor{
+#contenedor #set_tabla #set_grupo #aragor{
     margin:auto;
     margin-bottom: 10px;
     display:block;
