@@ -355,7 +355,7 @@ LISTA DE OBJETOS UNICOS Y SETS */
     font-size:12px;
 }
 
-#contenedor .fondo_tabla table tr .tabla_objeto{
+.fondo_tabla table tr .tabla_objeto{
     background-color:black;
     padding:10px;
 }
