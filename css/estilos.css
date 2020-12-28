@@ -541,6 +541,20 @@ GEMAS*/
 #gema td{
     padding:4px;
     margin:12px;
+    font-size:12px;
+    text-align:justify;
+    font-weight:bold;
+    color:rgb(142, 233, 142);
+}
+
+
+#gema p{
+    padding:4px;
+    margin:12px;
+    font-size:12px;
+    text-align:justify;
+    font-weight:bold;
+    color:rgb(142, 233, 142);
 }
 
 #gema tr{
