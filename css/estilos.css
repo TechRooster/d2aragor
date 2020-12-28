@@ -426,6 +426,18 @@ LISTA DE OBJETOS SET */
     padding-bottom:5px;
     font-weight: bold;
 }
+
+#contenedor #set_grupo #antiguo{
+    margin:auto;
+    margin-bottom: 20px;
+    display:block;
+}
+
+#contenedor #set_grupo #aragor{
+    margin:auto;
+    margin-bottom: 10px;
+    display:block;
+}
 /***********************************************************************************
 
 /***********************************************************************************
