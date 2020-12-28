@@ -16,6 +16,8 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lato&family=Montserrat&family=Quicksand&family=Roboto&display=swap');
 /*Estoy importando las siguientes fuentes: Cabin, Roboto, Montserrat, Quicksand, Lato */
 
+/***********************************************************************************
+TODO */
 #todo{
     width:91%;
     margin: 15px auto;
@@ -30,14 +32,16 @@ header{
     text-align:center;
     font-size:30px;
     font-weight: bold;
-    background-image:url("imgs/portada2.jpg");
+    background-image:url("imgs/portada3.jpg");
     background-position:center top;
     background-repeat:no-repeat;
     background-color:black;
     height:180px;
 }
+/***********************************************************************************
 
-/* BARRA DE NAVEGACIÓN */
+/***********************************************************************************
+BARRA DE NAVEGACIÓN */
 #barra{
     background-color:rgb(22, 22, 22);
     margin-bottom: 20px;
@@ -84,10 +88,10 @@ header{
     padding-bottom: 10px;
     font-weight: bold;
 }
+/***********************************************************************************
 
-/* //////////////
-BARRA DE BUSQUEDA 
-////////////// */
+/***********************************************************************************
+BARRA DE BUSQUEDA */
 .busqueda{
     text-align:right;
     margin-top:-50px;
@@ -109,10 +113,10 @@ BARRA DE BUSQUEDA
     font-size:0.7em;
     font-family: 'Cabin',sans-serif;
 }
+/***********************************************************************************
 
-/* ////////////////////
-BARRA LATERAL IZQUIERDA 
-//////////////////// */
+/***********************************************************************************
+BARRA LATERAL IZQUIERDA */
 #blizquierda{
     float:left;
     background-color:rgb(22, 22, 22);
@@ -156,10 +160,10 @@ BARRA LATERAL IZQUIERDA
     padding-top:10px;
     padding-bottom:10px;
 }
+/***********************************************************************************
 
-/* //////////////////
-BARRA LATERAL DERECHA 
-////////////////// */
+/***********************************************************************************
+BARRA LATERAL DERECHA */
 #blderecha{
     float:right;
     margin-top: -30px;
@@ -169,12 +173,11 @@ BARRA LATERAL DERECHA
     background-color:rgb(22, 22, 22);
     padding: 10px 4px 10px 4px;
     border: 3px solid black;
-
 }
+/***********************************************************************************
 
-/* ///////////////
-CONTENIDO PRINCIPAL 
-/////////////// */
+/***********************************************************************************
+CONTENIDO PRINCIPAL */
 #contenedor{
     background-color:rgb(0,0,0);
     margin-left: 182px;
@@ -208,9 +211,42 @@ CONTENIDO PRINCIPAL
 #bienvenida p{
     color:greenyellow;
 }
-/* /////////////
-OBJETOS UNICOS
-//////////// */
+/***********************************************************************************
+
+/***********************************************************************************
+DESCARGAS: BARRA SUPERIOR */
+#descargas p{
+    font-family:'Cabin',sans-serif;
+    font-size:12px;
+    text-align:justify;
+    color:greenyellow;
+    padding: 2px;
+}
+/***********************************************************************************
+
+
+/***********************************************************************************
+PERSONAJES: AMAZONA, ASESINA, BARBARO, DRUIDA, HECHICERA, NIGROMANTE, PALADIN */
+#personajes{
+    font-family:'Cabin',sans-serif;
+    font-size:12px;
+    text-align:justify;
+    color:greenyellow;
+}
+
+#personajes td{
+    padding:4px;
+    margin:12px;
+}
+
+#personajes tr{
+    margin:1.5px;
+}
+/***********************************************************************************/
+
+
+/***********************************************************************************
+OBJETOS UNICOS */
 #cuerpo{
     background-color:black;
     color:white;
@@ -260,10 +296,10 @@ OBJETOS UNICOS
 #unico_tabla{
     margin:auto;
 }
+/***********************************************************************************
 
-/* ////////
-LISTA DE OBJETOS UNICOS
-/////// */
+/***********************************************************************************
+LISTA DE OBJETOS UNICOS */
 .fondo_tabla{
     background-color: black;
     margin:auto;
@@ -313,11 +349,10 @@ LISTA DE OBJETOS UNICOS
     padding-top:1px;
     text-align:center;
 }
+/***********************************************************************************
 
-/* /////////////
-LISTA DE OBJETOS SET
-//////////// */
-
+/***********************************************************************************
+LISTA DE OBJETOS SET */
 #unico_grupo a .setitem{
     font-size:12px;
     font-family: 'Cabin', sans-serif;
@@ -332,11 +367,29 @@ LISTA DE OBJETOS SET
     text-align:center;
     padding-right:15px;
 }
+/***********************************************************************************
 
-/* ////////
-CUBO HORADRICO
-/////// */
+/***********************************************************************************
+RUNAS*/
+#runas{
+    font-family:'Cabin',sans-serif;
+    font-size:12px;
+    text-align:justify;
+    color:greenyellow;
+}
 
+#runas td{
+    padding:4px;
+    margin:12px;
+}
+
+#runas tr{
+    margin:1.5px;
+}
+/***********************************************************************************
+
+/***********************************************************************************
+CUBO HORADRICO */
 .formulas_c{
     font-family: 'Cabin', sans-serif;
     font-size:13px;
@@ -350,21 +403,10 @@ CUBO HORADRICO
     color:greenyellow;
 
 }
+/***********************************************************************************
 
-/* ////////////
-DESCARGAS
-//////////// */
-#descargas p{
-    font-family:'Cabin',sans-serif;
-    font-size:12px;
-    text-align:justify;
-    color:greenyellow;
-    padding: 2px;
-}
-
-/* ////////////
-LLAVES
-//////////// */
+/***********************************************************************************
+LLAVES*/
 #llaves{
     font-family:'Cabin',sans-serif;
     font-size:12px;
@@ -380,10 +422,48 @@ LLAVES
 #llaves tr{
     margin:1.5px;
 }
+/***********************************************************************************
 
-/* /////////////
-PIE DE PAGINA
-///////////// */
+/***********************************************************************************
+EXTRACTORES*/
+#extractores{
+    font-family:'Cabin',sans-serif;
+    font-size:12px;
+    text-align:justify;
+    color:greenyellow;
+}
+
+#extractores td{
+    padding:4px;
+    margin:12px;
+}
+
+#extractores tr{
+    margin:1.5px;
+}
+/***********************************************************************************
+
+/***********************************************************************************
+GEMAS*/
+#gemas{
+    font-family:'Cabin',sans-serif;
+    font-size:12px;
+    text-align:justify;
+    color:greenyellow;
+}
+
+#gemas td{
+    padding:4px;
+    margin:12px;
+}
+
+#gemas tr{
+    margin:1.5px;
+}
+/***********************************************************************************
+
+/***********************************************************************************
+PIE DE PAGINA */
 footer{
     background-color:rgb(22, 22, 22);
     clear:both;
@@ -393,6 +473,6 @@ footer{
     text-align:center;
     padding-top:10px;
     margin-bottom:20px;
-    font-size: 0.7em;
-    
+    font-size: 0.7em;   
 }
+/***********************************************************************************
