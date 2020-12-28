@@ -392,7 +392,6 @@ LISTA DE OBJETOS UNICOS */
 LISTA DE OBJETOS SET */
 
 #set_grupo{
-    background-color:black;
     color:white;
     text-align:center;
     font-family: 'Cabin', sans-serif;
@@ -400,19 +399,39 @@ LISTA DE OBJETOS SET */
     padding: 20px 20px;
 }
 
-#set_grupo a .setitem{
+#set_grupo a:link .setitem{
     font-size:12px;
     font-family: 'Cabin', sans-serif;
-    color:greenyellow;
+    color:rgb(142, 233, 142);
+    text-decoration:none;
+}
+
+#set_grupo a:visited .setitem{
+    font-size:12px;
+    font-family: 'Cabin', sans-serif;
+    color:rgb(142, 233, 142);
+    text-decoration:none;
 }
 
 #set_grupo .p_set{
     font-size:14px;
-    color:yellow;
+    color:rgb(141, 195, 245);
     font-weight: bold;
     font-family:'Cabin', sans-serif;
     text-align:center;
     padding-right:15px;
+}
+
+#set_grupo td{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#set_grupo td p a{
+    font-family: 'Cabin', sans-serif;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-weight: bold;
 }
 /***********************************************************************************
 
