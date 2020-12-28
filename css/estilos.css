@@ -395,8 +395,8 @@ LISTA DE OBJETOS SET */
     color:white;
     text-align:center;
     font-family: 'Cabin', sans-serif;
-    margin: 20px 0;
-    padding: 20px 20px;
+    margin: auto;
+    padding: 10px 20px;
 }
 
 #contenedor #set_grupo a{
