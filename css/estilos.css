@@ -427,18 +427,8 @@ LISTA DE OBJETOS SET */
     font-weight: bold;
 }
 
-#contenedor #set_grupo #antiguo{
-    margin:auto;
-    margin-bottom: 20px;
-    background-color:blue;
-    overflow:hidden;
-}
+#contenedor #set_grupo
 
-#contenedor #set_grupo #aragor{
-    margin:auto;
-    margin-bottom: 10px;
-    background-color:red,
-}
 /***********************************************************************************
 
 /***********************************************************************************
