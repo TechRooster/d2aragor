@@ -385,6 +385,10 @@ LISTA DE OBJETOS UNICOS Y SETS */
     padding-top:1px;
     text-align:center;
 }
+
+#contenedor .fondo_tabla .tabla_objeto{
+    background-color: #000000;
+}
 /***********************************************************************************
 
 /***********************************************************************************
