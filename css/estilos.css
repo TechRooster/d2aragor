@@ -336,7 +336,7 @@ OBJETOS UNICOS */
 /***********************************************************************************
 
 /***********************************************************************************
-LISTA DE OBJETOS UNICOS */
+LISTA DE OBJETOS UNICOS Y SETS */
 .fondo_tabla{
     background-color: black;
     margin:auto;
@@ -354,6 +354,10 @@ LISTA DE OBJETOS UNICOS */
 
 #contenedor .tabla_propiedades p{
     font-size:12px;
+}
+
+#contenedor .fondo_tabla .tabla_objeto{
+    background-color:black;
 }
 
 .tabla_objeto{
