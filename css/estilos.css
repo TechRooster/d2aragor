@@ -253,7 +253,11 @@ DESCARGAS: BARRA SUPERIOR */
     font-size:12px;
     text-align:justify;
     color:greenyellow;
-    padding: 2px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
 }
 /***********************************************************************************
 
@@ -264,17 +268,12 @@ PERSONAJES: AMAZONA, ASESINA, BARBARO, DRUIDA, HECHICERA, NIGROMANTE, PALADIN */
     font-family:'Cabin',sans-serif;
     font-size:12px;
     text-align:justify;
-    color:greenyellow;
+    color:rgb(141, 195, 245);
 }
 
-#personajes td{
-    padding:4px;
-    margin:12px;
-}
+#personajes p{
+    color:rgb(142, 233, 142);
 
-#personajes tr{
-    margin:1.5px;
-}
 /***********************************************************************************/
 
 
