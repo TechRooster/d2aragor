@@ -430,7 +430,6 @@ LISTA DE OBJETOS SET */
 #contenedor #set_tabla #set_grupo #antiguo{
     margin:auto;
     margin-bottom: 20px;
-    display:block;
     background-color:blue;
     overflow:hidden;
 }
@@ -438,7 +437,6 @@ LISTA DE OBJETOS SET */
 #contenedor #set_tabla #set_grupo #aragor{
     margin:auto;
     margin-bottom: 10px;
-    display:block;
     background-color:red,
 }
 /***********************************************************************************
