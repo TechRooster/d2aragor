@@ -413,12 +413,12 @@ LISTA DE OBJETOS SET */
     font-family:'Cabin', sans-serif;
     text-align:center;
     padding-right:15px;
-    padding-bottom:5px;
+    margin-bottom:-40px;
+    margin-top:15px;
 }
 
 #contenedor #set_grupo .set_tabla td{
-    margin-left:30px;
-    margin-right:30px;
+    width:50%;
 }
 
 #contenedor #set_grupo td p a{
