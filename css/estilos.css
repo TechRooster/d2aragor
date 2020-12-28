@@ -399,14 +399,7 @@ LISTA DE OBJETOS SET */
     padding: 20px 20px;
 }
 
-#set_grupo a:link .setitem{
-    font-size:12px;
-    font-family: 'Cabin', sans-serif;
-    color:rgb(142, 233, 142);
-    text-decoration:none;
-}
-
-#set_grupo a:visited .setitem{
+#set_grupo p .set_item{
     font-size:12px;
     font-family: 'Cabin', sans-serif;
     color:rgb(142, 233, 142);
