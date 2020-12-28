@@ -508,7 +508,7 @@ LLAVES*/
 
 /***********************************************************************************
 EXTRACTORES*/
-#extractores{
+#extractor{
     font-family:'Cabin',sans-serif;
     font-size:12px;
     text-align:justify;
@@ -516,19 +516,19 @@ EXTRACTORES*/
     font-weight:bold;
 }
 
-#extractores td{
+#extractor td{
     padding:4px;
     margin:12px;
 }
 
-#extractores tr{
+#extractor tr{
     margin:1.5px;
 }
 /***********************************************************************************
 
 /***********************************************************************************
 GEMAS*/
-#gemas{
+#gema{
     font-family:'Cabin',sans-serif;
     font-size:12px;
     text-align:justify;
@@ -538,12 +538,12 @@ GEMAS*/
     margin-right:20px,
 }
 
-#gemas td{
+#gema td{
     padding:4px;
     margin:12px;
 }
 
-#gemas tr{
+#gema tr{
     margin:1.5px;
 }
 /***********************************************************************************
