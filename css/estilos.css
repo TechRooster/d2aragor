@@ -543,6 +543,7 @@ GEMAS*/
     margin:12px;
     font-size:12px;
     text-align:justify;
+    font-family: 'Cabin', sans-serif;
     font-weight:bold;
     color:rgb(142, 233, 142);
 }
@@ -552,6 +553,7 @@ GEMAS*/
     padding:4px;
     margin:12px;
     font-size:12px;
+    font-family: 'Cabin', sans-serif;
     text-align:justify;
     font-weight:bold;
     color:rgb(142, 233, 142);
