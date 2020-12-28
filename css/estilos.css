@@ -418,7 +418,7 @@ LISTA DE OBJETOS SET */
 }
 
 #contenedor #set_grupo .set_tabla td{
-    width:80%;
+    border-spacing: 5px 10px;
 }
 
 #contenedor #set_grupo td p a{
