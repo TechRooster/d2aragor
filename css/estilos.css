@@ -488,7 +488,7 @@ CUBO HORADRICO */
 
 /***********************************************************************************
 LLAVES*/
-#llaves{
+#llave{
     font-family:'Cabin',sans-serif;
     font-size:12px;
     text-align:justify;
@@ -496,12 +496,12 @@ LLAVES*/
     font-weight:bold;
 }
 
-#llaves td{
+#llave td{
     padding:4px;
     margin:12px;
 }
 
-#llaves tr{
+#llave tr{
     margin:1.5px;
 }
 /***********************************************************************************
