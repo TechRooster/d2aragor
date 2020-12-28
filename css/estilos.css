@@ -271,6 +271,11 @@ PERSONAJES: AMAZONA, ASESINA, BARBARO, DRUIDA, HECHICERA, NIGROMANTE, PALADIN */
     color:rgb(141, 195, 245);
 }
 
+#personajes h1{
+    font-weight: bold;
+    font-size:14px;
+}
+
 #personajes p{
     color:rgb(142, 233, 142);
 }
