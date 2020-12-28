@@ -312,7 +312,7 @@ OBJETOS UNICOS */
 }
 
 #unico_grupo .grupo{
-    font-size:14px;
+    font-size:13px;
     color:rgb(141, 195, 245);
     font-weight: bold;
     font-family:'Cabin', sans-serif;
@@ -322,14 +322,9 @@ OBJETOS UNICOS */
     color:yellow;
 }
 
-#unico_grupo .grupo{
-    color:greenyellow;
-    font-size:14px;
-}
 
 #unico_grupo a:link, #unico_grupo a:visited{
     text-decoration: none;
-    color: white;
 }
 
 #unico_tabla{
