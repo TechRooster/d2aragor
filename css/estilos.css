@@ -431,12 +431,15 @@ LISTA DE OBJETOS SET */
     margin:auto;
     margin-bottom: 20px;
     display:block;
+    background-color:blue;
+    overflow:hidden;
 }
 
 #contenedor #set_grupo #aragor{
     margin:auto;
     margin-bottom: 10px;
     display:block;
+    background-color:red,
 }
 /***********************************************************************************
 
