@@ -267,6 +267,8 @@ PERSONAJES: AMAZONA, ASESINA, BARBARO, DRUIDA, HECHICERA, NIGROMANTE, PALADIN */
     font-size:12px;
     text-align:justify;
     color:rgb(141, 195, 245);
+    margin-left:20px;
+    margin-right:20px,
 }
 
 #personajes h1{
@@ -472,15 +474,15 @@ CUBO HORADRICO */
 .formulas_c{
     font-family: 'Cabin', sans-serif;
     font-size:13px;
-    color:yellow;
+    color:rgb(141, 195, 245);
     font-weight:bold;
 }
 
 .cubo_content{
     font-family: 'Cabin', sans-serif;
     font-size:12px;
-    color:greenyellow;
-
+    color:rgb(142, 233, 142);
+    font-weight:bold;
 }
 /***********************************************************************************
 
@@ -490,7 +492,8 @@ LLAVES*/
     font-family:'Cabin',sans-serif;
     font-size:12px;
     text-align:justify;
-    color:greenyellow;
+    color:rgb(142, 233, 142);
+    font-weight:bold;
 }
 
 #llaves td{
@@ -509,7 +512,8 @@ EXTRACTORES*/
     font-family:'Cabin',sans-serif;
     font-size:12px;
     text-align:justify;
-    color:greenyellow;
+    color:rgb(142, 233, 142);
+    font-weight:bold;
 }
 
 #extractores td{
@@ -528,7 +532,10 @@ GEMAS*/
     font-family:'Cabin',sans-serif;
     font-size:12px;
     text-align:justify;
-    color:greenyellow;
+    font-weight:bold;
+    color:rgb(142, 233, 142);
+    margin-left:20px;
+    margin-right:20px,
 }
 
 #gemas td{
