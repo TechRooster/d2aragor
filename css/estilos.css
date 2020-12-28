@@ -19,15 +19,19 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable,
 /***********************************************************************************
 TODO */
 #todo{
-    width:91%;
+    width:80%;
     margin: 15px auto;
     background-image: url(imgs/fondo1.jpg);
     background-size:cover;
     background-repeat: repeat-y;
     background-position: center top;
     color:white;
+    min-width:1000px;
 }
+/***********************************************************************************
 
+/***********************************************************************************
+HEADER */
 header{
     text-align:center;
     font-size:30px;
@@ -36,31 +40,33 @@ header{
     background-position:center top;
     background-repeat:no-repeat;
     background-color:black;
-    height:180px;
+    height:500px;
+    min-width:1000px;
 }
 /***********************************************************************************
 
 /***********************************************************************************
 BARRA DE NAVEGACIÓN */
 #barra{
-    background-color:rgb(22, 22, 22);
-    margin-bottom: 20px;
-    height:2em;
-    padding-top:15px;
-    padding-left:50px;
-    border-top: 4px solid yellow;
-    ;
+    background-color:rgba(38, 59, 99, 0.2);
+    margin-bottom: 15px;
+    height:1.7em;
+    padding-top:6px;
+    padding-left:2px;
+    border-top: 3px solid rgb(82, 120, 146);
+    border-radius: 5px;
+    min-width:1000px;
 }
 
 #barra li{
     display:inline;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(22, 22, 22, 0.8);
     color:rgba(255, 255, 255,0.7);
-    margin-left:8px;
-    margin-right:8px;
+    margin-left:2px;
+    margin-right:2px;
     
     padding: 6px 20px;
-    font-size:11.5px;
+    font-size:10px;
     font-family: 'Cabin',sans-serif;
     font-weight: bold;
     border-radius:10px;
@@ -83,35 +89,36 @@ BARRA DE NAVEGACIÓN */
 
 #barra a:hover{
     color:rgba(255,255,255);
-    border-bottom: 5px solid yellow;
-    ;
-    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(39, 39, 179);
+    padding-bottom: 2px;
     font-weight: bold;
 }
 /***********************************************************************************
 
 /***********************************************************************************
 BARRA DE BUSQUEDA */
+
 .busqueda{
     text-align:right;
-    margin-top:-50px;
-    margin-right:20px;
+    margin-top:-42px;
+    margin-right:10px;
     margin-bottom:50px;
 }
 
 #buscador{
-    background-color: rgb(46, 48, 46);
+    background-color: rgba(22, 22, 22, 0.3);
     border-radius:8px;
     color:white;
-
+    width:10%;
 }
 
 .busqueda #boton{
-    background-color:rgb(46, 45, 45);
+    background-color:rgb(22, 22, 22, 0.8);
     color:white;
     border-radius:5px;
     font-size:0.7em;
     font-family: 'Cabin',sans-serif;
+    height:20px;
 }
 /***********************************************************************************
 
@@ -119,24 +126,31 @@ BARRA DE BUSQUEDA */
 BARRA LATERAL IZQUIERDA */
 #blizquierda{
     float:left;
-    background-color:rgb(22, 22, 22);
-    margin-top:-30px;
+    margin-top:-36px;
     margin-bottom:50px;
-    border: 3px solid black;
 }
 
 #blizquierda ul{
     list-style:none;
-    margin-right:20px;
-    margin-left:0px;
     font-family:'Cabin',sans-serif;
     font-size:12px;
+    background-color: rgb(22, 22, 22, 0.8);
+    margin-bottom:10px;
+    border-radius:5px;
 }
 
 #blizquierda li{
-    margin-top:6px;
-    margin-bottom:4px;
-    padding-right:10px;
+    margin-top:2px;
+    margin-bottom:1px;
+    color:rgba(255, 255, 255,0.7);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: -1px;
+    padding-right: 12px;
+    font-size:11px;
+    font-family: 'Cabin',sans-serif;
+    font-weight: bold;
+    border-radius:5px;
 }
 
 #blizquierda li a:link{
@@ -150,7 +164,7 @@ BARRA LATERAL IZQUIERDA */
 }
 
 #blizquierda li a:hover{
-    border-bottom:4px solid yellow;
+    border-bottom:4px solid rgb(39, 39, 179);
     color:rgb(255,255,255);
 }
 
@@ -163,30 +177,49 @@ BARRA LATERAL IZQUIERDA */
 /***********************************************************************************
 
 /***********************************************************************************
+PIE DE PAGINA */
+footer{
+    background-color:rgb(22, 22, 22, 0.8);
+    clear:both;
+    font-family:'Cabin', sans-serif;
+    height:1.5em;
+    text-align:right;
+    padding-top:5px;
+    padding-right:10px;
+    margin-bottom:20px;
+    font-size: 11.5px;
+    font-weight: bold;
+    border-radius:5px;   
+}
+/***********************************************************************************
+
+
+/***********************************************************************************
 BARRA LATERAL DERECHA */
 #blderecha{
     float:right;
     margin-top: -30px;
     width:170px;
     font-family:'Cabin',sans-serif;
-    font-size:15px;
-    background-color:rgb(22, 22, 22);
+    font-size:12px;
+    background-color:rgb(22, 22, 22, 0.8);
     padding: 10px 4px 10px 4px;
-    border: 3px solid black;
+    border-radius:5px;
 }
 /***********************************************************************************
 
 /***********************************************************************************
 CONTENIDO PRINCIPAL */
 #contenedor{
-    background-color:rgb(0,0,0);
-    margin-left: 182px;
-    margin-right: 192px;
+    background-color:rgb(22,22,22,0.8);
+    margin-left: 140px;
+    margin-right: 183px;
     margin-top: -30px;
     padding: 50px 20px 50px 20px;
-    font-size:16px;
     font-family:'Cabin',sans-serif;
-    border: 3px solid black;
+    border-radius: 5px;
+    min-width:500px;
+    overflow:hidden;
 }
 
 #contenedor h1{
@@ -462,17 +495,3 @@ GEMAS*/
 }
 /***********************************************************************************
 
-/***********************************************************************************
-PIE DE PAGINA */
-footer{
-    background-color:rgb(22, 22, 22);
-    clear:both;
-    font-family:'Cabin', sans-serif;
-    height:2em;
-    border: 3px solid black;
-    text-align:center;
-    padding-top:10px;
-    margin-bottom:20px;
-    font-size: 0.7em;   
-}
-/***********************************************************************************
