@@ -390,13 +390,23 @@ LISTA DE OBJETOS UNICOS */
 
 /***********************************************************************************
 LISTA DE OBJETOS SET */
-#unico_grupo a .setitem{
+
+#set_grupo{
+    background-color:black;
+    color:white;
+    text-align:center;
+    font-family: 'Cabin', sans-serif;
+    margin: 20px 0;
+    padding: 20px 20px;
+}
+
+#set_grupo a .setitem{
     font-size:12px;
     font-family: 'Cabin', sans-serif;
     color:greenyellow;
 }
 
-#unico_grupo .p_set{
+#set_grupo .p_set{
     font-size:14px;
     color:yellow;
     font-weight: bold;
