@@ -298,18 +298,28 @@ OBJETOS UNICOS */
     padding: 20px 20px;
 }
 
-#unico_grupo a{
+#unico_grupo .uqitem{
     color:rgb(142, 233, 142);
     padding-left:15px;
     padding-right: 20px;
+    font-family:'Cabin', sans-serif;
+    font-size: 12px;
+    font-weight:bold;
 }
 
 #unico_tabla .unico{
     font-size:13px;
 }
 
+#unico_tabla.grupo{
+    color:
+}
+
 #unico_grupo .grupo p{
     font-size:14px;
+    color:rgb(141, 195, 245);
+    font-weight: bold;
+    font-family:'Cabin', sans-serif;
 }
 
 #unico_tabla .unico:hover{
@@ -354,8 +364,8 @@ LISTA DE OBJETOS UNICOS Y SETS */
 
 .tabla_objeto{
     text-align:center;
-    padding-right:10px;
-    padding-left:25px;
+    padding-right:15px;
+    padding-left:15px;
     padding-bottom:5px;
     padding-top:5px;
     width:100px;
