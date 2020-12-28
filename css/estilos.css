@@ -284,8 +284,6 @@ PERSONAJES: AMAZONA, ASESINA, BARBARO, DRUIDA, HECHICERA, NIGROMANTE, PALADIN */
 /***********************************************************************************
 OBJETOS UNICOS */
 #cuerpo{
-    background-color:black;
-    color:white;
     text-align:center;
     font-family: 'Cabin', sans-serif;
     margin: 20px 0;
@@ -294,8 +292,6 @@ OBJETOS UNICOS */
 }
 
 #unico_grupo{
-    background-color:black;
-    color:white;
     text-align:center;
     font-family: 'Cabin', sans-serif;
     margin: 20px 0;
@@ -303,6 +299,7 @@ OBJETOS UNICOS */
 }
 
 #unico_grupo a{
+    color:rgb(142, 233, 142);
     padding-left:15px;
     padding-right: 20px;
 }
@@ -312,7 +309,7 @@ OBJETOS UNICOS */
 }
 
 #unico_grupo .grupo p{
-    font-size:20px;
+    font-size:14px;
 }
 
 #unico_tabla .unico:hover{
@@ -358,7 +355,7 @@ LISTA DE OBJETOS UNICOS Y SETS */
 .tabla_objeto{
     text-align:center;
     padding-right:10px;
-    padding-left:10px;
+    padding-left:25px;
     padding-bottom:5px;
     padding-top:5px;
     width:100px;
