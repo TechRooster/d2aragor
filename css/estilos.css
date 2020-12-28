@@ -427,7 +427,7 @@ LISTA DE OBJETOS SET */
     font-weight: bold;
 }
 
-#contenedor #set_grupo #set_tabla #set_grupo #antiguo{
+#contenedor #set_grupo #set_tabla #antiguo{
     margin:auto;
     margin-bottom: 20px;
     background-color:blue;
