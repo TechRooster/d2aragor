@@ -22,11 +22,10 @@ TODO */
     width:80%;
     margin: 15px auto;
     background-image: url(imgs/fondo1.jpg);
-    background-size:cover;
+    background-size:auto;
     background-repeat: repeat-y;
     background-position: center top;
     color:white;
-    min-width:1000px;
 }
 /***********************************************************************************
 
