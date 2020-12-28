@@ -396,7 +396,7 @@ LISTA DE OBJETOS SET */
     text-align:center;
     font-family: 'Cabin', sans-serif;
     margin: auto;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 #contenedor #set_grupo a{
@@ -415,6 +415,10 @@ LISTA DE OBJETOS SET */
     padding-right:15px;
     margin-bottom:-40px;
     margin-top:15px;
+}
+
+#contenedor #set_grupo .set_tabla td{
+    width:80%;
 }
 
 #contenedor #set_grupo td p a{
