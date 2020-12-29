@@ -471,14 +471,14 @@ RUNAS*/
 CUBO HORADRICO */
 .formulas_c{
     font-family: 'Cabin', sans-serif;
-    font-size:12px;
+    font-size:11px;
     color:rgb(141, 195, 245);
     font-weight:bold;
 }
 
 .cubo_content{
     font-family: 'Cabin', sans-serif;
-    font-size:11px;
+    font-size:10px;
     color:rgb(142, 233, 142);
     font-weight:bold;
 }
