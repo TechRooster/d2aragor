@@ -287,6 +287,42 @@ PERSONAJES: AMAZONA, ASESINA, BARBARO, DRUIDA, HECHICERA, NIGROMANTE, PALADIN */
 }
 /***********************************************************************************/
 
+/***********************************************************************************
+MERCENARIOS*/
+#mercenarios{
+    font-family:'Cabin',sans-serif;
+    font-size:12px;
+    text-align:justify;
+    font-weight:bold;
+    color:rgb(142, 233, 142);
+    margin-left:20px;
+    margin-right:20px,
+}
+
+#mercenarios td{
+    padding:4px;
+    margin:12px;
+    font-size:12px;
+    text-align:justify;
+    font-family: 'Cabin', sans-serif;
+    font-weight:bold;
+    color:rgb(142, 233, 142);
+}
+
+
+#mercenarios p{
+    margin:12px;
+    font-size:12px;
+    font-family: 'Cabin', sans-serif;
+    text-align:justify;
+    font-weight:bold;
+    color:rgb(142, 233, 142);
+}
+
+#mercenarios tr{
+    margin:1.5px;
+}
+/***********************************************************************************
 
 /***********************************************************************************
 OBJETOS UNICOS */
