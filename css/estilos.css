@@ -233,7 +233,6 @@ CONTENIDO PRINCIPAL */
     text-align:justify;
 }
 
-
 #bienvenida h1{
     color:yellow;
     
@@ -322,7 +321,6 @@ OBJETOS UNICOS */
 #unico_tabla .unico:hover{
     color:yellow;
 }
-
 
 #unico_grupo a:link, #unico_grupo a:visited{
     text-decoration: none;
