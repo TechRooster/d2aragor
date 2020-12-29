@@ -519,6 +519,15 @@ EXTRACTORES*/
     font-weight:bold;
 }
 
+#extractor p{
+    margin:12px;
+    font-size:12px;
+    font-family: 'Cabin', sans-serif;
+    text-align:justify;
+    font-weight:bold;
+    color:rgb(142, 233, 142);
+}
+
 #extractor td{
     padding:4px;
     margin:12px;
