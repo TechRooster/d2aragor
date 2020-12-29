@@ -473,12 +473,14 @@ CUBO HORADRICO */
     font-family: 'Cabin', sans-serif;
     color:rgb(141, 195, 245);
     font-weight:bold;
+    font-size:0.8em;
 }
 
 .cubo_content{
     font-family: 'Cabin', sans-serif;
     color:rgb(142, 233, 142);
     font-weight:bold;
+    font-size:0.7em;
 }
 
 #introduccion{
