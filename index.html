@@ -77,6 +77,10 @@
                 $('#contenedor').load('paladin.html');
                 return false;
             });
+            $('#paladin').click(function(){
+                $('#contenedor').load('faq.html');
+                return false;
+            });
 
         });
         /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
@@ -90,6 +94,7 @@
     <nav>
         <div id="barra">    
             <ul>
+                <li><a id="faq" href="#">FAQ</a></li>
                 <li><a class="pestanas" href="#">FORO</a></li>
                 <li><a class="pestanas" href="#">REGISTRARSE</a></li>
                 <li><a class="pestanas" href="#">CONECTARSE</a></li>
