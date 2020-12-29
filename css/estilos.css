@@ -520,6 +520,14 @@ LLAVES*/
     color:rgb(142, 233, 142);
 }
 
+#llave p{
+    font-size:12px;
+    text-align:justify;
+    font-family: 'Cabin', sans-serif;
+    font-weight:bold;
+    color:rgb(142, 233, 142);
+}
+
 #llave tr{
     margin:1.5px;
 }
