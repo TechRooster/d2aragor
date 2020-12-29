@@ -85,7 +85,10 @@
                 $('#contenedor').load('faq.html');
                 return false;
             });
-
+            $('#contacto').click(function(){
+                $('#contenedor').load('contacto.html');
+                return false;
+            });
         });
         /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
     </script>
@@ -103,6 +106,7 @@
                 <li><a class="pestanas" href="#">REGISTRARSE</a></li>
                 <li><a class="pestanas" href="#">CONECTARSE</a></li>
                 <li><a id="descargas" href="#">DESCARGAS</a></li>
+                <li><a id="contacto" href="#">CONTACTO</a></li>
             </ul>
         </div>
         <div id="buscar">
