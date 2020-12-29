@@ -247,9 +247,10 @@ CONTENIDO PRINCIPAL */
 DESCARGAS: BARRA SUPERIOR */
 #descarga p{
     font-family:'Cabin',sans-serif;
-    font-size:13px;
+    font-size:12px;
     text-align:justify;
-    color:rgb(142, 233, 142);    
+    color:rgb(142, 233, 142);
+    font-weight:bold; 
 }
 /***********************************************************************************
 
