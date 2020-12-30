@@ -663,7 +663,7 @@ FOROS */
     scrollbar-arrow-color:#FFFFFF;
     scrollbar-track-color:#E3E3E3;
     scrollbar-darkshadow-color:#000000;
-    background-color:rgb(22,22,22,0.8);
+    background-color:rgba(22, 22, 22, 0.8);
 
     /*
     position:absolute;
