@@ -88,9 +88,13 @@
         });
         /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
 
-        var valueSize = $('#foros').offset();
-        var totalSize = (valueSize.top*2) + valueSize.left;
-        $('#foros').height(totalSize);
+        function autofitIframe(id){
+            if (!window.opera && document.all && document.getElementById){
+                id.style.height=id.contentWindow.document.body.scrollHeight;
+            } else if(document.getElementById) {
+                id.style.height=id.contentDocument.body.scrollHeight+"px";
+            }
+        }
 
     </script>
 </head>
@@ -155,8 +159,9 @@
 
     <div id="principal">
         <div id="contenedor">
-            <iframe id="foros" src="https://d2aragor.foroactivo.com/" frameborder="0" width=100%></iframe>
-            <div>hola</div>
+            <div id="contenedor_iframe">    
+                <iframe id="foros" src="https://d2aragor.foroactivo.com/" frameborder="1" width="100%" height="0" transparency="transparency" onload="autofitIframe(this);"></iframe>
+            </div>
         </div>
     </div>
 
