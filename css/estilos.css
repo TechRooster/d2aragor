@@ -655,6 +655,16 @@ FOROS */
     margin-top:-30px;
     margin-bottom: 30px;
     height:2000px;
+
+    scrollbar-face-color:#6699CC;
+    scrollbar-highlight-color:#6699CC;        
+    scrollbar-shadow-color:#6699CC;
+    scrollbar-3dlight-color:#FFFFFF;
+    scrollbar-arrow-color:#FFFFFF;
+    scrollbar-track-color:#E3E3E3;
+    scrollbar-darkshadow-color:#000000;
+    background-color:rgb(22,22,22,0.8);
+
     /*
     position:absolute;
     top:0;
