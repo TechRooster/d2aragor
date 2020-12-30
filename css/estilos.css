@@ -654,9 +654,7 @@ FOROS */
 #foros{
     margin-top:-30px;
     margin-bottom: 30px;
-    width:1px;
-    min-width:100%;
-    height:100%;
+    height:2000px;
     /*
     position:absolute;
     top:0;

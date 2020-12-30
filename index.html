@@ -7,7 +7,6 @@
     <link rel="shortcut icon" href="css/imgs/favicon.jpg"/>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/iframeResizer_PARENT.min.js"></script>
     <script>
         $(document).ready(function(){
             $('#unicos').click(function(){
@@ -87,6 +86,8 @@
                 return false;
             });
         });
+
+        
         /* Esto no funcionará hasta que se ejecute en un servidor puesto que requiere protocolos HTTP */
 
     </script>
@@ -152,10 +153,7 @@
 
     <div id="principal">
         <div id="contenedor">
-            <iframe id="foros" src="https://d2aragor.foroactivo.com/" frameborder="0"></iframe>
-            <script>
-                iFrameResize({log: true}, '#foros')
-            </script>
+            <iframe id="foros" src="https://d2aragor.foroactivo.com/" frameborder="0" width="100%" scrolling="no" height="100%"></iframe>
         </div>
     </div>
 
