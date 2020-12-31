@@ -204,6 +204,7 @@ BARRA LATERAL DERECHA */
     float:right;
     margin-top: -30px;
     margin-bottom:50px;
+    margin-left:20px;
     width:170px;
     font-family:'Cabin',sans-serif;
     font-size:12px;
