@@ -219,40 +219,55 @@ BARRA LATERAL DERECHA */
     font-weight:bold; 
 }
 
-#todo #blderecha li{
+#blderecha ul{
+    list-style:none;
+    font-family:'Cabin',sans-serif;
+    font-size:12px;
+    background-color: rgb(22, 22, 22, 0.8);
+    margin-bottom:10px;
+    border-radius:5px;
+}
+
+#blderecha li{
     font-family:'Cabin',sans-serif;
     font-size:12px;
     text-align:justify;
-    color:rgb(142, 233, 142);
-    font-weight:bold; 
+    color:rgba(255, 255, 255,0.8);
+    font-weight:bold;
+    border-radius:5px; 
 }
 
 #todo #blderecha #donacion{
     margin-bottom:50px;
 }
 
-#todo #bldereceha #perfil{
+#todo #blderecha #perfil{
     margin-top:30px;
     padding-top:10px;
 }
 
-#todo #bldereceha #perfil ul li{
+#todo #blderecha #perfil ul li{
     list-style-type:none;
-    color:rgb(142, 233, 142);
+    color:rgba(255, 255, 255,0.8);
     text-decoration: none;
 }
 
-#todo #bldereceha #perfil ul li a{
+#todo #blderecha #perfil ul li a:link{
     list-style-type:none;
-    color:rgb(142, 233, 142);
+    color:rgba(255, 255, 255,0.8);
     text-decoration: none;
 }
 
-#todo #bldereceha #perfil ul li a:hover{
+#todo #blderecha #perfil ul li a:hover{
     list-style-type:none;
-    color:white;
+    color:rgba(255, 255, 255,0.8);
     text-decoration: none;
+}
 
+#todo #blderecha #perfil ul li a:visited{
+    list-style-type:none;
+    color:rgba(255, 255, 255,0.8);
+    text-decoration: none;
 }
 /***********************************************************************************
 
