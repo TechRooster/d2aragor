@@ -212,7 +212,6 @@ BARRA LATERAL DERECHA */
     padding: 10px 4px 10px 4px;
     border-radius:5px;
     overflow:hidden;
-    position:fixed;
 }
 
 #blderecha p{
