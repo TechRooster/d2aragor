@@ -227,19 +227,32 @@ BARRA LATERAL DERECHA */
     font-weight:bold; 
 }
 
+#blderecha #donacion{
+    margin-bottom:50px;
+}
+
 #bldereceha #perfil{
     margin-top:30px;
     padding-top:10px;
 }
 
+#bldereceha #perfil ul li{
+    list-style-type:none;
+    color:rgb(142, 233, 142);
+    text-decoration: none;
+}
+
 #bldereceha #perfil ul li a{
     list-style-type:none;
     color:rgb(142, 233, 142);
+    text-decoration: none;
 }
 
 #bldereceha #perfil ul li a:hover{
     list-style-type:none;
     color:white;
+    text-decoration: none;
+
 }
 /***********************************************************************************
 
