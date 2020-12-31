@@ -200,7 +200,7 @@ footer{
 
 /***********************************************************************************
 BARRA LATERAL DERECHA */
-#blderecha{
+.blderecha{
     float:right;
     margin-top: -30px;
     width:170px;
@@ -211,7 +211,7 @@ BARRA LATERAL DERECHA */
     border-radius:5px;
 }
 
-#blderecha p{
+.blderecha p{
     font-family:'Cabin',sans-serif;
     font-size:12px;
     text-align:justify;
