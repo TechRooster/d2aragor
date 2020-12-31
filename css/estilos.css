@@ -209,6 +209,7 @@ BARRA LATERAL DERECHA */
     background-color:rgb(22, 22, 22, 0.8);
     padding: 10px 4px 10px 4px;
     border-radius:5px;
+    overflow:hidden;
 }
 
 #blderecha p{
@@ -239,6 +240,8 @@ BARRA LATERAL DERECHA */
 
 #blderecha #donacion{
     margin-bottom:50px;
+    color:rgb(142, 233, 142);
+
 }
 
 #blderecha #perfil{
