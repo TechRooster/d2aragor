@@ -48,7 +48,7 @@ header{
 BARRA DE NAVEGACIÓN */
 #barra{
     background-color:rgba(38, 59, 99, 0.2);
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     height:1.7em;
     padding-top:6px;
     padding-left:2px;
@@ -663,7 +663,7 @@ FOROS */
 #foros{
     margin-top:-30px;
     margin-bottom: 30px;
-    height:2000px;
+    height:3000px;
 
     scrollbar-face-color:#6699CC;
     scrollbar-highlight-color:#6699CC;        
