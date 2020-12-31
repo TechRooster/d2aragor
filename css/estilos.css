@@ -228,16 +228,17 @@ BARRA LATERAL DERECHA */
 }
 
 #bldereceha #perfil{
-    margin-top:-30px;
+    margin-top:30px;
+    padding-top:10px;
 }
 
-#bldereceha #perfil a{
-    list-style:none;
+#bldereceha #perfil ul li a{
+    list-style-type:none;
     color:rgb(142, 233, 142);
 }
 
-#bldereceha #perfil a:hover{
-    list-style:none;
+#bldereceha #perfil ul li a:hover{
+    list-style-type:none;
     color:white;
 }
 /***********************************************************************************
