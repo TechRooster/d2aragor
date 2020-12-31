@@ -206,6 +206,14 @@ BARRA LATERAL DERECHA */
     padding: 10px 4px 10px 4px;
     border-radius:5px;
 }
+
+#blderecha p{
+    font-family:'Cabin',sans-serif;
+    font-size:12px;
+    text-align:justify;
+    color:rgb(142, 233, 142);
+    font-weight:bold; 
+}
 /***********************************************************************************
 
 /***********************************************************************************
