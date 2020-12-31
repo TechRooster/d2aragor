@@ -26,6 +26,7 @@ TODO */
     background-repeat: repeat-y;
     background-position: center top;
     color:white;
+    min-width:1000px;
 }
 /***********************************************************************************
 
@@ -292,6 +293,7 @@ CONTENIDO PRINCIPAL */
     font-family:'Cabin',sans-serif;
     border-radius: 5px;
     min-width:500px;
+    overflow:hidden;
 }
 
 #contenedor h1{
